@@ -521,6 +521,10 @@ def qc(rec):
         res["first_words"] = " ".join(w["w"] for w in ws[:8]); res["last_words"] = " ".join(w["w"] for w in ws[-10:])
     if not rec.get("screen", {}).get("setup") or not rec.get("screen", {}).get("payoff"):
         problems.append("NO SCREEN CARD: setup/payoff not written down - should not have been rendered")
+    L = rec.get("layout", {})
+    if L.get("mode") in ("stack", "split") and L.get("facecam"):
+        problems.append("DOUBLE FACECAM: the streamer's cam is already inside the full game frame - use layout "
+                        "{'mode':'stack','facecam':null} (owner rule 2026-11-23)")
     res["problems"], res["auto_pass"] = problems, not problems
     res["note"] = "Automated checks only. Look at qc/contact.png and watch the export before posting."
     (o / "qc.json").write_text(json.dumps(res, indent=2))

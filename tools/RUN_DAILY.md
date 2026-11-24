@@ -7,7 +7,7 @@ Follow this from top to bottom on every scheduled run. Nobody is watching, so do
 - **TikTok-safe only.** Reject at screening: nudity, sex scenes (the brothel / "check every room" mission, the Lucia shower, the strip club, lap dances, bed scenes, characters in underwear or bikinis), thirst or "gyatt" clips, and slur-heavy clips. Blurring does NOT make these OK.
 - **Funny or nothing.** One beat: an absurd or messed-up action plus the streamer's quotable line or reaction. Include the lead-up. Never cut before the payoff. Zero clips beats weak clips.
 - **Captions are word-for-word** what the streamer says. Censoring the caption text (f***) is fine. Never bleep or mute the audio.
-- **Layout:** the full uncropped game frame plus the facecam. Never blur chat or the cam.
+- **Layout:** the full uncropped game frame, with the streamer's facecam left where it already is in the stream. **Never show the facecam twice** (no extra cam on top of a frame that already has it): use `"layout": {"mode": "stack", "facecam": null}` like the EXAMPLE record. Never blur chat or the cam. QC flags DOUBLE FACECAM.
 - **No duplicates.** Check by moment (`python dupcheck.py`), not just by URL. Also check `ledger.csv` and the `clips/` folder.
 - Read `taste.md` and `decisions.csv` first. They hold every approval and rejection with reasons. Apply them.
 

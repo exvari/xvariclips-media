@@ -69,3 +69,4 @@ Claude reads word-timed transcripts, audio energy and frames. It cannot hear ton
 - dupcheck.py has no history in a fresh cloud clone (work/*/words.json isn't in the repo), so the moment duplicate check falls back to ledger.csv moment_keys only.
 - 2026-11-23 owner verdict on ludwig_non_lethal: "lame". A near-miss is still a miss, even when the owner asks for a post: if nothing clears the bar, say so instead of posting the closest one.
 - Top 7-day GTA 6 Twitch clips rechecked: 17 of 20 were sex/nudity scenes. The Twitch top-clips feed is basically used up as a TikTok-safe source.
+- 2026-11-23 owner on moist_posthumous: "not bad", "double face cam is a no no". Rule: show the facecam once. Use stack with facecam:null (full frame, cam stays where the stream has it). Never add a second, enlarged cam band.
