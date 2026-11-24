@@ -38,6 +38,7 @@ Follow this from top to bottom on every scheduled run. Nobody is watching, so do
 6. **Schedule** in Buffer:
    - Organization: "My organization".
    - TikTok channel: `6b03a9578541f09ecb6ef4f4`.
+   - **Credit the creator in every caption** (owner rule 2026-11-24). Look the streamer up in `tools/creators.csv`. If `status` is `verified` or `likely`, end the caption with `🎥 @<tiktok_handle>` (exact username, no spaces: TikTok's API turns a matching @username into a link to their account). Otherwise end it with `🎥 twitch.tv/<channel>`. Never tag a handle you haven't verified: a wrong @ tags a random account. When you verify a new handle (the account's name matches and the content is clearly theirs, not a clip account), add it to creators.csv with the evidence.
    - Use `create_post` with `mode: customScheduled`, `schedulingType: automatic`, the `video` asset URL, and the post caption plus 3–5 hashtags (the emoji goes in the caption, not the video).
    - Slots, Pacific time:
      - Mon–Fri: 15:30 and 18:30
