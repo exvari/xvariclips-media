@@ -67,3 +67,5 @@ Claude reads word-timed transcripts, audio energy and frames. It cannot hear ton
 - 24h Twitch clips from the 15 channels: 504 listed, 34 screened, 0 kept. About 1 in 4 screened were TikTok-unsafe (brothel/bed, shower, nude Mandy, sex toys, club dancers) and about 1 in 5 were not GTA (chess, IRL, Marvel trailer, music).
 - New rejection pattern: a payoff that happens far away (a tiny explosion in the background) doesn't count as SEEN on a phone screen, even when the streamer's line is good (ludwig_non_lethal).
 - dupcheck.py has no history in a fresh cloud clone (work/*/words.json isn't in the repo), so the moment duplicate check falls back to ledger.csv moment_keys only.
+- 2026-11-23 owner verdict on ludwig_non_lethal: "lame". A near-miss is still a miss, even when the owner asks for a post: if nothing clears the bar, say so instead of posting the closest one.
+- Top 7-day GTA 6 Twitch clips rechecked: 17 of 20 were sex/nudity scenes. The Twitch top-clips feed is basically used up as a TikTok-safe source.
