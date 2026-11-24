@@ -31,3 +31,38 @@ date,clip_id,streamer,verdict,reasons
 2026-11-23,screen_batch_55,various,rejected-at-screen,"top weekly GTA6 Twitch clips mostly sex/nudity scenes (brothel mission, shower, strip club, bed, bikini creep) or IRL/not GTA; tiger clip had no visible tiger; rooftop chase generic"
 2026-11-23,coxnew5_stacks_x16,StacksWopo,rejected-at-screen,"GTA RP (FiveM) not GTA 6 story; heavy sexual talk/slurs"
 2026-11-23,kai_vod_2936683310_spikes,Kai Cenat,rejected-at-screen,"loudness-spike mining on 6.7h VOD: spikes were music/game audio, no clear funny beats"
+2026-11-23,caseoh_get_away,CaseOh,rejected-at-screen,no streamer line; generic driving/shootout plus pause-menu filler
+2026-11-23,caseoh_nice_scooter,CaseOh,rejected-at-screen,boring: generic driving; NPC hit with no streamer payoff
+2026-11-23,caseoh_is_it,CaseOh,rejected-at-screen,bike crash then ~18s of pause menu; 'ran over a deer' line is mild and comes after dead air
+2026-11-23,agent_emily_too_soon,Agent00,rejected-at-screen,reaction to another streamer (two facecams); car explosion with no clear funny line
+2026-11-23,agent_emily_gator,Agent00,rejected-at-screen,"'now we're friends' then the gator kills her: plain game fail plus 'oh my god', too mild; same pattern as rejected speed_gator; restream layout"
+2026-11-23,jynxzi_levy,Jynxzi,rejected-at-screen,not GTA (chess)
+2026-11-23,fanum_oh_shoot,Fanum,rejected-at-screen,"mission dialogue only, no payoff"
+2026-11-23,caseoh_whwd,CaseOh,rejected-at-screen,would get flagged: sex toys / sexual mural mission
+2026-11-23,fanum_w,Fanum,rejected-at-screen,not GTA (IRL)
+2026-11-23,caseoh_was_a_vibe,CaseOh,rejected-at-screen,would get flagged: nightclub dancers in revealing outfits
+2026-11-23,kai_cant_believe,Kai Cenat,rejected-at-screen,would get flagged: sex scene
+2026-11-23,kai_gta_drama,Kai Cenat,rejected-at-screen,would get flagged: nude character (Mandy)
+2026-11-23,caseoh_lmooo,CaseOh,rejected-at-screen,would get flagged: brothel/bed scene
+2026-11-23,caseoh_seen_things,CaseOh,rejected-at-screen,would get flagged: brothel/bed scene
+2026-11-23,kai_family_bridge,Kai Cenat,rejected-at-screen,no streamer line (almost no speech); payoff unclear
+2026-11-23,ludwig_non_lethal,Ludwig,rejected-at-screen,"NEAR MISS: predicts the stuntman will die, he explodes, Ludwig says 'I'm a non-lethal player... it wasn't me'; but the explosion is a tiny speck in the far background, the frame is mostly the character's back, the cam is tiny, and it needs about 27s to include the setup, so the payoff isn't clearly SEEN"
+2026-11-23,kai_female_caseoh,Kai Cenat,rejected-at-screen,no payoff (just 'what the f***' at a UFO); dark frames; body-shaming title
+2026-11-23,fanum_no_way,Fanum,rejected-at-screen,not GTA (Marvel trailer)
+2026-11-23,speed_red_hulk,IShowSpeed,rejected-at-screen,mild: 'do I hug him? I feel bad bro' then a hug; no punchline
+2026-11-23,ludwig_buff_out,Ludwig,rejected-at-screen,mild throwaway 'it'll buff out' after a crash
+2026-11-23,speed_best_moment,IShowSpeed,rejected-at-screen,boring: generic boat shootout
+2026-11-23,caseoh_double_c,CaseOh,rejected-at-screen,would get flagged: suggestive NPC scene/line
+2026-11-23,lacy_dot,Lacy,rejected-at-screen,would get flagged: shower nudity
+2026-11-23,speed_didnt_see,IShowSpeed,rejected-at-screen,would get flagged: bloody torture scene plus revealing outfit; no payoff
+2026-11-23,caseoh_road_rage,CaseOh,rejected-at-screen,"talk-heavy, no clear payoff"
+2026-11-23,lacy_kick_dog,Lacy,rejected-at-screen,no kick visible; he tries to pet a dog and it wanders off; no payoff; overlaps earlier Lacy-dog moments
+2026-11-23,speed_finds_hulk,IShowSpeed,rejected-at-screen,Hulk fight chaos but no clear streamer line
+2026-11-23,ludwig_whoops,Ludwig,rejected-at-screen,"cutscene (child character), no payoff"
+2026-11-23,speed_rocco,IShowSpeed,rejected-at-screen,"starts on WASTED, then complains about stream quality; no payoff"
+2026-11-23,caseoh_scared_money,CaseOh,rejected-at-screen,"'scared money don't make money' then a garage jump that just lands; low energy, no consequence"
+2026-11-23,kai_radio_accident,Kai Cenat,rejected-at-screen,mostly radio menu; hits a cyclist with no reaction line
+2026-11-23,jason_pool_shot,JasonTheWeen,rejected-at-screen,boring: talk about pool angles
+2026-11-23,lacy_blanket,Lacy,rejected-at-screen,"not GTA (IRL, Agent's stream)"
+2026-11-23,caseoh_hit_by_npc,CaseOh,rejected-at-screen,mostly driving/pause menu; bikini NPCs in frame
+2026-11-23,title_filtered_24h,various,rejected-at-screen,"not downloaded: xQc commentary/ending clips (talk, spoilers), PlaqueBoyMax music sessions, and titles suggesting sexual content (FREAKY, BUTT NAKED, CHEEKS, kisses, ayo, LUCIA IS BUILT DIFFERENT)"

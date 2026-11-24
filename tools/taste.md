@@ -62,3 +62,8 @@ Claude reads word-timed transcripts, audio energy and frames. It cannot hear ton
 - Twitch top-viewed GTA 6 clips are mostly sex/nudity scenes -> poor source for TikTok-safe content.
 - Loudness-spike VOD mining picks up music/game audio; not productive without laughter/speech detection.
 - Best remaining sources: Stacks raw via user's PC (YouTube blocked in cloud); TikTok clipper accounts that already post clean GTA 6 clips (need account list).
+
+## Sourcing lessons (2026-11-23 daily run, auto)
+- 24h Twitch clips from the 15 channels: 504 listed, 34 screened, 0 kept. About 1 in 4 screened were TikTok-unsafe (brothel/bed, shower, nude Mandy, sex toys, club dancers) and about 1 in 5 were not GTA (chess, IRL, Marvel trailer, music).
+- New rejection pattern: a payoff that happens far away (a tiny explosion in the background) doesn't count as SEEN on a phone screen, even when the streamer's line is good (ludwig_non_lethal).
+- dupcheck.py has no history in a fresh cloud clone (work/*/words.json isn't in the repo), so the moment duplicate check falls back to ledger.csv moment_keys only.
