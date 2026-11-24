@@ -1,0 +1,65 @@
+{
+  "whisper_model": "medium.en",
+  "vocab_prompt": "Kai Cenat, IShowSpeed, xQc, Lacy, Stable Ronaldo, CaseOh, StacksWopo, N3on, GTA 6, Leonida, Vice City, Lucia, Jason, Peggy, chat, bro.",
+  "sherpa_whisper_dir": "models/sherpa-onnx-whisper-base.en",
+  "fetch_padding_sec": 3,
+  "x264_preset": "veryfast",
+  "crf": 20,
+  "audio": {
+    "lufs": -14,
+    "true_peak": -1.5
+  },
+  "layout": {
+    "split_top_h": 700,
+    "stack": {
+      "header_y": 292,
+      "cam_y": 385,
+      "cam_h": 330,
+      "game_y": 722,
+      "game_h": 608,
+      "caption_y": 1430
+    },
+    "stack_nocam": {
+      "header_y": 560,
+      "game_y": 660,
+      "game_h": 608,
+      "caption_y": 1372
+    }
+  },
+  "header": {
+    "font": "Anton",
+    "size": 64,
+    "box_pad": 14,
+    "max_chars_per_line": 26,
+    "y_fill": 250
+  },
+  "captions": {
+    "font": "Anton",
+    "size": 84,
+    "outline": 7,
+    "baseline_y": 1420,
+    "max_words": 4,
+    "max_chars": 20,
+    "max_chars_per_line": 20,
+    "uppercase": true,
+    "pop": true
+  },
+  "safe": {
+    "top": 210,
+    "bottom": 480,
+    "right": 150
+  },
+  "_notes": "safe = platform UI danger zones (px) drawn red on QC contact sheets. Header/captions are placed inside the safe area. split_top_h = facecam band height in split layout.",
+  "censor": {
+    "\\bnigg(a|as|er|ers|ah)\\b": "***a",
+    "\\bfuck(ing|ed|er|in)?\\b": "***",
+    "\\bmotherfuck\\w*": "***",
+    "\\bshit\\b": "***",
+    "\\bbitch(es)?\\b": "****"
+  },
+  "radar": {
+    "min_views": 300,
+    "min_views_per_min": 15,
+    "max_downloads_per_poll": 3
+  }
+}

@@ -1,0 +1,68 @@
+id,streamer,broadcast_date,moment_key,source_url,in,out,status,updated
+TEST_fill,TEST (synthetic),n/a,test-fill,local:/home/claude/testsrc/source_test.mp4,1.6,14.6,rendered,2026-11-19 05:20 UTC
+TEST_fit,TEST (synthetic),n/a,test-fit,local:/home/claude/testsrc/source_test.mp4,1.6,14.6,rendered,2026-11-19 05:21 UTC
+2026-11-19_caseoh_keep_it_pristine,CaseOh,2026-11-19,caseoh-keep-it-pristine,https://www.twitch.tv/caseoh_/clip/LuckyBenevolentDotterelOMGScoots-lFgr2IvDbbFYqy0L,0,28.8,rendered,2026-11-20 03:27 UTC
+2026-11-19_lacy_motorcycles_better,Lacy,2026-11-19,lacy-motorcycles-spoke-too-soon,https://www.twitch.tv/lacy/clip/BoldPopularLegMrDestructoid-zkq_hgoilPQdO3R2,1.5,23.5,rendered,2026-11-20 03:28 UTC
+2026-11-19_caseoh_called_the_hip,CaseOh,2026-11-19,caseoh-scooter-hip,https://www.twitch.tv/caseoh_/clip/BeautifulModernTermiteYouWHY-nEB5VffTKnvTR2UD,0,19.6,rendered,2026-11-20 03:30 UTC
+2026-11-19_kai_six_star_gas_station,Kai Cenat,2026-11-19,kai-six-stars-gas-station,https://www.twitch.tv/kaicenat/clip/OddSpicyWeaselMrDestructoid-Rp1pkJt2BiLvEDCq,17.5,37.2,rendered,2026-11-20 04:29 UTC
+2026-11-18_n3on_thought_he_had_it,N3on,2026-11-18,n3on-wasted-thought-he-had-it,https://kick.com/n3on/clips/clip_01M7QHCS12NRC4TNK00191XEZF,0,10.9,rendered,2026-11-20 04:31 UTC
+2026-11-19_caseoh_bridge_game,CaseOh,2026-11-19,caseoh-bridge-game,https://www.twitch.tv/caseoh_/clip/VainCourteousKaleBabyRage-06rqGkLgi3OzfREJ,0,26.0,rendered,2026-11-20 04:33 UTC
+2026-11-19_vanoss_arrested_frame_one,Vanoss Crew,2026-11-18,vanoss_arrested_frame_one,https://www.twitch.tv/vanosscrew/clip/HonestUnsightlyRingPJSugar-thab6msCCtg7e7d-,0,20.5,rendered,2026-11-20 04:56 UTC
+2026-11-17_xqc_abolish_time_zones,xQc,2026-11-17,xqc_abolish_time_zones,https://kick.com/xqc/clips/clip_01M7KECPEW9P1Y63PHKN8KZ0W8,8.5,52.0,rendered,2026-11-20 05:01 UTC
+2026-11-19_adin_anti_furry_psa,Adin Ross,2026-11-19,adin_anti_furry_psa,https://kick.com/adinross/clips/clip_01M7RP0WZYS0W8VVWWZ4CR5M7B,0,29.9,rendered,2026-11-20 05:04 UTC
+2026-11-19_lacy_part_of_the_mission,Lacy,2026-11-19,lacy_part_of_the_mission,https://www.twitch.tv/lacy/clip/TiredDeafJuiceUncleNox-CD_q5QQDwhv_jCLj,8.5,60.0,rendered,2026-11-20 05:09 UTC
+2026-11-19_tim_put_on_a_timer,TimTheTatman,2026-11-19,tim_put_on_a_timer,https://www.twitch.tv/timthetatman/clip/BraveBashfulScallionCoolStoryBro-oNSTNnnOlCim8EVa,0,30.5,rendered,2026-11-20 05:12 UTC
+2026-11-19_speed_is_this_a_porno,IShowSpeed,2026-11-19,speed_is_this_a_porno,https://www.twitch.tv/ishowspeed/clip/OnerousEncouragingKeyboardOSkomodo-4rg8jTATQ5xQiW3R,0,34.0,rendered,2026-11-20 05:16 UTC
+2026-11-19_speed_hold_on_chat,IShowSpeed,2026-11-19,speed_hold_on_chat,https://www.twitch.tv/ishowspeed/clip/InspiringFriendlyLemurJebaited-oFs8vW6U4uy5p44B,12.5,60.0,rendered,2026-11-20 05:33 UTC
+2026-11-19_ludwig_npc_rant,Ludwig,2026-11-19,ludwig_npc_rant,https://www.twitch.tv/ludwig/clip/BeautifulDaintyMomTwitchRaid-q4op7h8xugMC5r-E,0,32.0,rendered,2026-11-20 05:37 UTC
+2026-11-19_yourrage_first_mission,YourRAGE,2026-11-19,yourrage_first_mission,https://www.twitch.tv/yourragegaming/clip/EvilChillyClintmullinsPoooound-P_ZS6NqbRvPOkAki,0,21.5,rendered,2026-11-20 05:39 UTC
+2026-11-19_kai_gf_found_the_ex,Kai Cenat,2026-11-19,kai_gf_found_the_ex,https://www.twitch.tv/kaicenat/clip/UnusualConsiderateLionGingerPower-oJF7Ao2MX9omrH0x,9.0,48.0,rendered,2026-11-20 07:19 UTC
+2026-11-19_xqc_npc_fired_back,xQc,2026-11-19,xqc_npc_fired_back,https://www.twitch.tv/xqc/clip/TrustworthyCarefulJalapenoKAPOW--CPhZdDJiBW-X0-C,0,17.3,rendered,2026-11-20 07:21 UTC
+2026-11-19_caseoh_seaplane_survived,CaseOh,2026-11-19,caseoh_seaplane_survived,https://www.twitch.tv/caseoh_/clip/CuriousBadEchidnaCoolStoryBro-g66TfyHbfF_r5vxZ,0,35.0,rendered,2026-11-20 07:23 UTC
+2026-11-19_speed_its_a_stick_up,IShowSpeed,2026-11-19,speed_its_a_stick_up,https://www.twitch.tv/ishowspeed/clip/CrazyAbnegateLapwingPipeHype-fzo4DD3_M-TisQLE,0,29.6,rendered,2026-11-20 07:26 UTC
+2026-11-19_ohne_scooter_lady,ohnePixel,2026-11-19,ohne_scooter_lady,https://www.twitch.tv/ohnepixel/clip/ThankfulSoftKoupreyOMGScoots-8rWxvM1hXbQ2r_nz,0,23.5,rendered,2026-11-20 07:29 UTC
+2026-11-19_lacy_tried_to_pet_the_dog,Lacy,2026-11-19,lacy_tried_to_pet_the_dog,https://www.twitch.tv/lacy/clip/ThirstyAcceptableRaccoonDxAbomb-NT930bCo04OgUQHD,0,7.0,rendered,2026-11-20 07:30 UTC
+2026-11-18_lacy_dog_then_cops,Lacy,2026-11-18,lacy-dog-cops,https://www.twitch.tv/videos/2932194507,50,118.6,rendered,2026-11-20 08:15 UTC
+2026-11-19_caseoh_w_plan,CaseOh,2026-11-19,caseoh_w_plan,https://www.twitch.tv/caseoh_/clip/SwissBenevolentRhinocerosRedCoat-_qn39IFUSFPG0nep,0,36.6,rendered,2026-11-20 08:19 UTC
+2026-11-19_kai_i_can_explain,Kai Cenat,2026-11-19,kai_i_can_explain,https://www.twitch.tv/kaicenat/clip/ResoluteCourteousPistachioSuperVinlin-DzGhsfoP-l4gFmBB,0,19.0,rendered,2026-11-20 08:24 UTC
+2026-11-19_speed_scooter_getaway,IShowSpeed,2026-11-19,speed_scooter_getaway,https://www.twitch.tv/ishowspeed/clip/HilariousTiredManateeFrankerZ-d3IrR90WPncoIVyg,7,60.2,rendered,2026-11-21 03:27 UTC
+2026-11-19_caseoh_step_away_from_the_body,CaseOh,2026-11-19,caseoh_step_away_from_the_body,https://www.twitch.tv/caseoh_/clip/CourageousGleamingCurry4Head-6iFyrD9BaXzZcwiU,0,57.0,rendered,2026-11-21 03:33 UTC
+2026-11-20_stacks_grandma_beatdown,StacksWopo,2026-11-20,stacks_grandma_beatdown,https://www.tiktok.com/@stackswopo/video/7710065974640168222,0,33,rendered,2026-11-21 07:00 UTC
+2026-11-20_kai_found_skunk_ape,Kai Cenat,2026-11-20,kai_found_skunk_ape,https://www.twitch.tv/kaicenat/clip/BoldEncouragingHamJonCarnage-pe0Q59lJ1Zj-4lUY,0,22.5,rendered,2026-11-21 07:02 UTC
+2026-11-20_vanoss_pet_working_dog,Vanoss Crew,2026-11-20,vanoss_pet_working_dog,https://www.twitch.tv/vanosscrew/clip/VibrantNeighborlyBanana4Head-cbyX6mgcOlQD0aVa,0,46,rendered,2026-11-21 07:10 UTC
+2026-11-20_vanoss_fight_me,Vanoss Crew,2026-11-20,vanoss_fight_me,https://www.twitch.tv/vanosscrew/clip/ExcitedSlipperyKleeSoBayed-8ID5pXReR4_oMeNk,0,40,rendered,2026-11-21 07:16 UTC
+2026-11-20_n3on_survived_crash,N3on,2026-11-18,n3on_survived_crash,https://kick.com/n3on/clips/clip_01M7QH0YKD6PN2KB6WQ4ANP6AR,0,30.5,rendered,2026-11-21 07:19 UTC
+2026-11-20_ron_road_rage_irl,Stable Ronaldo,2026-11-20,ron_road_rage_irl,https://www.twitch.tv/stableronaldo/clip/WittyPiliablePineappleDogFace-gKUzhjDvgfnm4L66,0,37.5,rendered,2026-11-21 07:24 UTC
+2026-11-20_lacy_wheelie_fail,Lacy,2026-11-20,lacy_wheelie_fail,https://www.twitch.tv/lacy/clip/ObliqueProtectiveSardinePJSalt-AEA-GOY38N4ROLcJ,0,28,rendered,2026-11-21 07:27 UTC
+2026-11-20_ddg_shot_wrong_guy,DDG,2026-11-19,ddg_shot_wrong_guy,https://kick.com/ddg/clips/clip_01M7SRQB7M7ZE7EATZ7DM8RM8E,0,29,rendered,2026-11-21 07:32 UTC
+2026-11-21_stacks_ufo_abduction,StacksWopo,2026-11-19,stacks_ufo_abduction,https://www.tiktok.com/@coxnew5/video/7709986490960350478,0,46,rendered,2026-11-21 15:38 UTC
+2026-11-21_stacks_duck_yo_head,StacksWopo,2026-06-09,stacks_duck_yo_head,https://www.tiktok.com/@gtaclippaaa/video/7649546826718235935,0,36,rendered,2026-11-21 15:40 UTC
+2026-11-21_stacks_go_get_it_again,StacksWopo,2026-05-20,stacks_go_get_it_again,https://www.tiktok.com/@gtaclippaaa/video/7641967509163347230,0,51,rendered,2026-11-21 15:42 UTC
+2026-11-21_stacks_church_exorcism,StacksWopo,2026-11-18,stacks_church_exorcism,https://www.tiktok.com/@coxnew5/video/7709307801771822349,0,63,rendered,2026-11-21 15:46 UTC
+2026-11-21_stacks_here_come_the_switch,StacksWopo,2026-06-06,stacks_here_come_the_switch,https://www.tiktok.com/@gtaclippaaa/video/7648275127045573918,0,31.8,rendered,2026-11-21 15:48 UTC
+2026-11-21_stacks_what_happened,StacksWopo,2026-07-09,stacks_what_happened,https://www.tiktok.com/@gtaclippaaa/video/7660520000863653151,0,38,rendered,2026-11-21 15:50 UTC
+2026-11-21_stacks_metaverse,StacksWopo,2026-04-28,stacks_metaverse,https://www.tiktok.com/@stackswopoclipaa/video/7633910159391116558,0,30,rendered,2026-11-21 15:52 UTC
+2026-11-21_stacks_clothes_trail_pt1,StacksWopo,2026-11-19,stacks_clothes_trail_pt1,https://www.tiktok.com/@coxnew5/video/7709980142206061855,21.5,67.3,rendered,2026-11-21 23:56 UTC
+2026-11-21_stacks6_cutscene_not_ready,StacksWopo,2026-11-20,stacks6_cutscene_not_ready,https://www.youtube.com/watch?v=puQTgRHAxfw,1,27.0,rendered,2026-11-22 02:48 UTC
+2026-11-21_stacks6_girl_coming_home,StacksWopo,2026-11-20,stacks6_girl_coming_home,https://www.youtube.com/watch?v=puQTgRHAxfw&t=470,1,39.0,rendered,2026-11-22 03:04 UTC
+2026-11-21_stacks6_its_2026,StacksWopo,2026-11-19,stacks6_its_2026,https://www.youtube.com/watch?v=6BYbpKdxisA&t=1015,1,39.0,rendered,2026-11-22 03:05 UTC
+2026-11-21_stacks6_white_boy_rhythm,StacksWopo,2026-11-20,stacks6_white_boy_rhythm,https://www.youtube.com/watch?v=puQTgRHAxfw&t=1436,1,41.0,rendered,2026-11-22 03:15 UTC
+2026-11-21_stacks6_water_bottle,StacksWopo,2026-11-19,stacks6_water_bottle,https://www.youtube.com/watch?v=6BYbpKdxisA&t=2139,1,22.0,rendered,2026-11-22 03:22 UTC
+2026-11-21_stacks6_swamp_chase,StacksWopo,2026-11-20,stacks6_swamp_chase,https://www.youtube.com/watch?v=puQTgRHAxfw&t=1828,1,43.0,rendered,2026-11-22 03:25 UTC
+2026-11-21_stacks6_no_witnesses,StacksWopo,2026-11-19,stacks6_no_witnesses,https://www.youtube.com/watch?v=6BYbpKdxisA&t=2592,1,40.0,rendered,2026-11-22 03:29 UTC
+2026-11-21_stacks6_cop_chase_movie,StacksWopo,2026-11-19,stacks6_cop_chase_movie,https://www.youtube.com/watch?v=6BYbpKdxisA&t=2478,1,30.0,rendered,2026-11-22 03:35 UTC
+2026-11-21_stacks6_capital_one,StacksWopo,2026-11-20,stacks6_capital_one,https://www.youtube.com/watch?v=puQTgRHAxfw&t=722,1,39.0,rendered,2026-11-22 03:39 UTC
+2026-11-21_stacks6_bench_press,StacksWopo,2026-11-19,stacks6_bench_press,https://www.youtube.com/watch?v=6BYbpKdxisA&t=598,1,36.0,rendered,2026-11-22 03:46 UTC
+2026-11-22_speed_slap,IShowSpeed,2026-11-21,speed_slap,https://www.twitch.tv/ishowspeed/clip/PhilanthropicGleamingSnailDuDudu-rTe42Bz2OmgWyUAx,0,59,rendered,2026-11-22 14:51 UTC
+2026-11-22_speed_hamilton,IShowSpeed,2026-11-21,speed_hamilton,https://www.twitch.tv/ishowspeed/clip/SullenCrazyZebraBCWarrior--hsD0G_7oVYC6bK6,0,22,rendered,2026-11-22 14:54 UTC
+2026-11-22_lacy_driver,Lacy,2026-11-21,lacy_driver,https://www.twitch.tv/lacy/clip/HonorableThirstyDonkeyHassanChop-fpmOS4KDci42X7KE,0,60,rendered,2026-11-22 15:01 UTC
+2026-11-22_nick_colors,Nick Eh 30,2026-11-21,nick_colors,https://www.twitch.tv/nickeh30/clip/ResilientRefinedMetalRedCoat-Y1Htgd5Ju3SCVtCl,0,29,rendered,2026-11-22 15:04 UTC
+2026-11-22_nick_leave,Nick Eh 30,2026-11-21,nick_leave,https://www.twitch.tv/nickeh30/clip/BoringDullCormorantTBTacoRight-lFmIqOKaVIARklrj,0,30,rendered,2026-11-22 15:08 UTC
+2026-11-22_kai_npc,Kai Cenat,2026-11-21,kai_npc,https://www.twitch.tv/kaicenat/clip/DeadStrongShrewPeteZarollTie-D0zPJW0an0d9FDMm,0,42,rendered,2026-11-22 15:13 UTC
+2026-11-22_xqc_heli,xQc,2026-11-21,xqc_heli,https://kick.com/xqc/clips/clip_01M7XRSJ2ZSJY4HAQHF3M4EY55,0,41,rendered,2026-11-22 15:16 UTC
+2026-11-22_lacy_good_clip,Lacy,2026-11-22,lacy_good_clip,https://www.twitch.tv/lacy/clip/BoredTawdryPepperoniPoooound-UNJjkVLx8_T2O6dL,11.5,63.0,rendered,2026-11-22 23:34 UTC
+2026-11-22_speed_alien_ksi,IShowSpeed,2026-11-22,speed_alien_ksi,https://www.twitch.tv/ishowspeed/clip/HeartlessBoringGarlicNotLikeThis-92TVBz7zH23M7sXG,5.5,49.7,rendered,2026-11-22 23:37 UTC
+2026-11-22_caseoh_drift,CaseOh,2026-11-22,caseoh_drift,https://www.twitch.tv/caseoh_/clip/SnappyDirtyHedgehogPJSalt-HpqmRVamQskXzuo-,0,24.5,rendered,2026-11-22 23:39 UTC
+2026-11-22_speed_gator,IShowSpeed,2026-11-22,speed_gator,https://www.twitch.tv/ishowspeed/clip/SmoothRichNewtShazBotstix-miX2CgBm4H8BwXs8,0,56.5,rendered,2026-11-22 23:44 UTC
+2026-11-22_caseoh_bridge_game,CaseOh,2026-11-19,caseoh_bridge_game,https://www.twitch.tv/caseoh_/clip/EvilChillyKleeKeepo-uq_TPadcMek2sAdf,1.5,28.0,rendered,2026-11-23 01:03 UTC
+2026-11-22_caseoh_bridge_short,CaseOh,2026-11-19,caseoh_bridge_short,https://www.twitch.tv/caseoh_/clip/EvilChillyKleeKeepo-uq_TPadcMek2sAdf,17.8,28.0,rendered,2026-11-23 01:04 UTC

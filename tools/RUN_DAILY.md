@@ -1,0 +1,46 @@
+# Daily clip run for TikTok @xvariclips
+
+Follow this from top to bottom on every scheduled run. Nobody is watching, so don't ask questions. If something blocks you, write it in the run report and keep going with whatever still works.
+
+## Hard rules (from the owner, not negotiable)
+- **GTA 6 only.** No GTA V, GTA RP or FiveM, no IRL clips, no trailers.
+- **TikTok-safe only.** Reject at screening: nudity, sex scenes (the brothel / "check every room" mission, the Lucia shower, the strip club, lap dances, bed scenes, characters in underwear or bikinis), thirst or "gyatt" clips, and slur-heavy clips. Blurring does NOT make these OK.
+- **Funny or nothing.** One beat: an absurd or messed-up action plus the streamer's quotable line or reaction. Include the lead-up. Never cut before the payoff. Zero clips beats weak clips.
+- **Captions are word-for-word** what the streamer says. Censoring the caption text (f***) is fine. Never bleep or mute the audio.
+- **Layout:** the full uncropped game frame plus the facecam. Never blur chat or the cam.
+- **No duplicates.** Check by moment (`python dupcheck.py`), not just by URL. Also check `ledger.csv` and the `clips/` folder.
+- Read `taste.md` and `decisions.csv` first. They hold every approval and rejection with reasons. Apply them.
+
+## Steps
+1. **Setup**
+   - `pip install --break-system-packages -r requirements.txt`
+   - Check that `ffmpeg` is installed (`apt-get install -y ffmpeg` if it's missing).
+2. **Find candidates** from the last 24h of Twitch clips:
+   - `yt-dlp --flat-playlist --playlist-end 40 -J "https://www.twitch.tv/<channel>/clips?filter=clips&range=24hr"`
+   - Run it for these channels: ishowspeed, kaicenat, lacy, caseoh_, xqc, stableronaldo, jynxzi, ludwig, jasontheween, marlon, agent00, zackrawrr, sketch, plaqueboymax, fanum.
+   - Drop titles that suggest sex or nudity (gyat, nude, shower, mandy, lucia, strip, freaky, etc.).
+   - Download the top ~30 by views at ≤720p.
+3. **Screen.**
+   - Transcribe with `python transcribe_dir.py` (run it in the download folder).
+   - Look at a 12-frame contact sheet of every candidate (`ffmpeg fps=12/dur,tile=4x3`). Do the safety check on the frames, not just the title.
+   - For each survivor, write `screen.setup` and `screen.payoff` (one sentence each).
+   - Keep at most 3. Log every rejection with its reason in `decisions.csv`.
+4. **Render** each keeper with `clipper.py`:
+   - Add a record to `batch.json`. Copy the EXAMPLE record's shape, set `status: "selected"`, and point `source_file` at the downloaded clip.
+   - Trim with `in`/`out` to 6–15s around the beat.
+   - Run `python clipper.py batch`.
+   - Check `out/<id>/qc.json`. If it shows problems, fix them or drop the clip.
+5. **Upload.** Copy each final `*_captioned.mp4` to `clips/<id>.mp4` in this repo. Commit and push to main. Check that `https://raw.githubusercontent.com/exvari/xvariclips-media/main/clips/<id>.mp4` returns 200.
+6. **Schedule** in Buffer:
+   - Organization: "My organization".
+   - TikTok channel: `6b03a9578541f09ecb6ef4f4`.
+   - Use `create_post` with `mode: customScheduled`, `schedulingType: automatic`, the `video` asset URL, and the post caption plus 3–5 hashtags (the emoji goes in the caption, not the video).
+   - Slots, Pacific time:
+     - Mon–Fri: 15:30 and 18:30
+     - Sat: 16:30
+     - Sun: 17:00
+   - Use the next free slots that are at least 3 hours away, so the owner has time to delete anything bad. Check `list_posts` first, so you never put two posts in the same slot.
+7. **Record** what you did:
+   - Add the new rows to `ledger.csv` and `decisions.csv` (verdict `auto-scheduled`).
+   - Commit `tools/` changes with the clips.
+   - End with a short report: what you scheduled, the slot times, what you rejected and why, and anything that blocked you.

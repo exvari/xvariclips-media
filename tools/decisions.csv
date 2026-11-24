@@ -1,0 +1,33 @@
+date,clip_id,streamer,verdict,reasons
+2026-11-19,caseoh_keep_it_pristine,CaseOh,approved-posted,funny interaction; instant contradiction
+2026-11-19,lacy_dog_then_cops,Lacy,approved-posted,reaction works; extended from VOD
+2026-11-19,kai_gf_found_the_ex,Kai Cenat,approved-posted,funny interaction
+2026-11-19,speed_its_a_stick_up,IShowSpeed,approved-posted,escalating chaos
+2026-11-19,xqc_npc_fired_back,xQc,approved-with-fix,ends before the best part
+2026-11-19,lacy_motorcycles_better,Lacy,approved-with-fix,too short; ends before the best part
+2026-11-19,xqc_abolish_time_zones,xQc,rejected,not GTA 6; boring premise
+2026-11-19,adin_anti_furry_psa,Adin Ross,rejected,boring premise
+2026-11-19,ludwig_npc_rant,Ludwig,rejected,no payoff
+2026-11-19,tim_put_on_a_timer,TimTheTatman,rejected,no payoff
+2026-11-19,yourrage_first_mission,YourRAGE,rejected,no payoff
+2026-11-19,speed_is_this_a_porno,IShowSpeed,rejected,boring premise
+2026-11-20,ron_road_rage_irl,Stable Ronaldo,rejected,not GTA (IRL)
+2026-11-21,stacks_rp_x6,StacksWopo,rejected,GTA V RP not GTA 6
+2026-11-21,stacks6_cutscene_not_ready,StacksWopo,rejected,starts too late (cut out the cutscene); bleeped audio
+2026-11-21,stacks6_its_2026,StacksWopo,rejected,missing context (no lead-up)
+2026-11-21,stacks6_its_a_prank,StacksWopo,rejected,jumps to unrelated scene; ends randomly
+2026-11-21,stacks6_batch,StacksWopo,rejected,bleeped audio; captions not word-for-word; no funny payoff
+2026-11-22,batch8_x7,various,rejected,unfunny/boring (per-clip reasons unknown)
+2026-11-22,lacy_best_driver,Lacy,rejected-at-screen,no payoff: vague brag while caught
+2026-11-22,speed_gator,IShowSpeed,rejected-at-review,screaming without funny payoff; filler before lunge
+2026-11-22,speed_alien_ksi,IShowSpeed,approved,funny interaction; specific roast line (KSI) at an absurd visible thing; high-energy reaction
+2026-11-22,lacy_good_clip,Lacy,rejected,boring: generic crash + FAILED screen; slow setup (silent flying); no funny line or reaction after
+2026-11-22,caseoh_drift,CaseOh,rejected,boring: mostly driving; 'never mind' payoff too mild/quick
+2026-11-22,caseoh_bridge (again),CaseOh,rejected,DUPLICATE: same moment as 2026-11-19_caseoh_bridge_game from a different viewer clip URL
+2026-11-22,speed_my_wife,IShowSpeed,rejected,would get flagged: nudity (shower)
+2026-11-22,speed_skip_this,IShowSpeed,rejected,would get flagged: sex scene mission
+2026-11-22,hasan_check_every_room,HasanAbi,rejected,would get flagged: sex scene mission
+2026-11-22,speed_knocked_out,IShowSpeed,rejected,would get flagged: suggestive bed scene
+2026-11-23,screen_batch_55,various,rejected-at-screen,"top weekly GTA6 Twitch clips mostly sex/nudity scenes (brothel mission, shower, strip club, bed, bikini creep) or IRL/not GTA; tiger clip had no visible tiger; rooftop chase generic"
+2026-11-23,coxnew5_stacks_x16,StacksWopo,rejected-at-screen,"GTA RP (FiveM) not GTA 6 story; heavy sexual talk/slurs"
+2026-11-23,kai_vod_2936683310_spikes,Kai Cenat,rejected-at-screen,"loudness-spike mining on 6.7h VOD: spikes were music/game audio, no clear funny beats"

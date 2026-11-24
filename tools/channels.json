@@ -1,0 +1,179 @@
+{
+ "_note": "`python clipper.py discover` lists each channel's top clips from the last 24h with view counts. YouTube (StacksWopo, Vanoss crew) only downloads from a home PC, not the cloud.",
+ "streamers": [
+  {
+   "name": "kaicenat",
+   "urls": [
+    "https://www.twitch.tv/kaicenat/clips?filter=clips&range=24hr"
+   ]
+  },
+  {
+   "name": "xqc",
+   "urls": [
+    "https://www.twitch.tv/xqc/clips?filter=clips&range=24hr"
+   ]
+  },
+  {
+   "name": "lacy",
+   "urls": [
+    "https://www.twitch.tv/lacy/clips?filter=clips&range=24hr"
+   ]
+  },
+  {
+   "name": "stableronaldo",
+   "urls": [
+    "https://www.twitch.tv/stableronaldo/clips?filter=clips&range=24hr"
+   ]
+  },
+  {
+   "name": "caseoh_",
+   "urls": [
+    "https://www.twitch.tv/caseoh_/clips?filter=clips&range=24hr"
+   ]
+  },
+  {
+   "name": "jynxzi",
+   "urls": [
+    "https://www.twitch.tv/jynxzi/clips?filter=clips&range=24hr"
+   ]
+  },
+  {
+   "name": "sketch",
+   "urls": [
+    "https://www.twitch.tv/sketch/clips?filter=clips&range=24hr"
+   ]
+  },
+  {
+   "name": "summit1g",
+   "urls": [
+    "https://www.twitch.tv/summit1g/clips?filter=clips&range=24hr"
+   ]
+  },
+  {
+   "name": "shroud",
+   "urls": [
+    "https://www.twitch.tv/shroud/clips?filter=clips&range=24hr"
+   ]
+  },
+  {
+   "name": "moistcr1tikal",
+   "urls": [
+    "https://www.twitch.tv/moistcr1tikal/clips?filter=clips&range=24hr"
+   ]
+  },
+  {
+   "name": "ludwig",
+   "urls": [
+    "https://www.twitch.tv/ludwig/clips?filter=clips&range=24hr"
+   ]
+  },
+  {
+   "name": "zackrawrr",
+   "urls": [
+    "https://www.twitch.tv/zackrawrr/clips?filter=clips&range=24hr"
+   ]
+  },
+  {
+   "name": "timthetatman",
+   "urls": [
+    "https://www.twitch.tv/timthetatman/clips?filter=clips&range=24hr"
+   ]
+  },
+  {
+   "name": "nickmercs",
+   "urls": [
+    "https://www.twitch.tv/nickmercs/clips?filter=clips&range=24hr"
+   ]
+  },
+  {
+   "name": "jasontheween",
+   "urls": [
+    "https://www.twitch.tv/jasontheween/clips?filter=clips&range=24hr"
+   ]
+  },
+  {
+   "name": "fanum",
+   "urls": [
+    "https://www.twitch.tv/fanum/clips?filter=clips&range=24hr"
+   ]
+  },
+  {
+   "name": "plaqueboymax",
+   "urls": [
+    "https://www.twitch.tv/plaqueboymax/clips?filter=clips&range=24hr"
+   ]
+  },
+  {
+   "name": "agent00",
+   "urls": [
+    "https://www.twitch.tv/agent00/clips?filter=clips&range=24hr"
+   ]
+  },
+  {
+   "name": "dukedennis",
+   "urls": [
+    "https://www.twitch.tv/dukedennis/clips?filter=clips&range=24hr"
+   ]
+  },
+  {
+   "name": "rakai",
+   "urls": [
+    "https://www.twitch.tv/rakai/clips?filter=clips&range=24hr"
+   ]
+  },
+  {
+   "name": "yourragegaming",
+   "urls": [
+    "https://www.twitch.tv/yourragegaming/clips?filter=clips&range=24hr"
+   ]
+  },
+  {
+   "name": "ishowspeed",
+   "urls": [
+    "https://www.twitch.tv/ishowspeed/clips?filter=clips&range=24hr"
+   ]
+  },
+  {
+   "name": "extraemily",
+   "urls": [
+    "https://www.twitch.tv/extraemily/clips?filter=clips&range=24hr"
+   ]
+  },
+  {
+   "name": "tarik",
+   "urls": [
+    "https://www.twitch.tv/tarik/clips?filter=clips&range=24hr"
+   ]
+  },
+  {
+   "name": "adinross",
+   "urls": [
+    "https://kick.com/adinross/clips"
+   ]
+  },
+  {
+   "name": "n3on",
+   "urls": [
+    "https://kick.com/n3on/clips"
+   ]
+  },
+  {
+   "name": "xqc",
+   "urls": [
+    "https://kick.com/xqc/clips"
+   ]
+  },
+  {
+   "name": "StacksWopo",
+   "urls": [
+    "https://www.youtube.com/@stackswopo_/streams"
+   ]
+  },
+  {
+   "name": "VanossGaming",
+   "urls": [
+    "https://www.youtube.com/@VanossGaming/videos"
+   ]
+  }
+ ]
+}

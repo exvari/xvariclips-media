@@ -1,0 +1,64 @@
+{
+ "batch": "2026-11-19 first real batch",
+ "window": "targeted 24-48h; two leads are 5-6 days old and marked",
+ "clips": [
+  {
+   "id": "2026-11-22_speed_alien_ksi",
+   "status": "EXAMPLE",
+   "streamer": "IShowSpeed",
+   "platform": "Twitch",
+   "game": "Grand Theft Auto VI",
+   "moment_key": "speed_alien_ksi",
+   "source_url": "https://www.twitch.tv/ishowspeed/clip/HeartlessBoringGarlicNotLikeThis-92TVBz7zH23M7sXG",
+   "source_type": "Twitch clip",
+   "broadcast_date": "2026-11-22",
+   "upload_date": "2026-11-22",
+   "metrics": [],
+   "in": "5.5",
+   "out": "49.7",
+   "layout": {
+    "mode": "stack",
+    "facecam": null,
+    "game": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "blur": []
+   },
+   "header": "Speed Found an Alien in GTA 6\u2026 'KSI, It Was You!'",
+   "header_alts": [
+    "Speed found the GTA 6 alien"
+   ],
+   "emphasis": [],
+   "screen": {
+    "setup": "Speed walks into a dark lab and finds an alien body on a table.",
+    "payoff": "He yells 'KSI! It was you the whole time, you fat forehead motherf***er!' and grabs his phone for a picture.",
+    "uncertainty": "No VOD available; first 5s of clip trimmed (dark walking).",
+    "boundaries_checked": true
+   },
+   "posting": {
+    "tiktok": "KSI was the alien all along \ud83d\ude2d #ishowspeed",
+    "hashtags_tiktok": [
+     "#ishowspeed",
+     "#ksi",
+     "#gta6",
+     "#gtavi",
+     "#gaming",
+     "#fyp"
+    ],
+    "instagram": "KSI was the alien all along \ud83d\ude2d #ishowspeed",
+    "hashtags_instagram": [
+     "#ishowspeed",
+     "#ksi",
+     "#gta6",
+     "#gtavi",
+     "#gaming"
+    ],
+    "cover_text": "SPEED FOUND AN ALIEN IN GTA 6\u2026 'KSI, IT WAS YOU!'",
+    "hook_reason": "He yells 'KSI! It was you the whole time, you fat forehead motherf***er!' and grabs his phone for a picture."
+   }
+  }
+ ]
+}
