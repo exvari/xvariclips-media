@@ -1,6 +1,6 @@
 {
- "batch": "2026-11-23 owner asked for a post now",
- "window": "targeted 24-48h; two leads are 5-6 days old and marked",
+ "batch": "2026-11-24 daily run (auto)",
+ "window": "24h Twitch clips, 34 channels; VOD context pulled for the keeper",
  "clips": [
   {
    "id": "2026-11-22_speed_alien_ksi",
@@ -129,7 +129,7 @@
   },
   {
    "id": "2026-11-23_moist_posthumous",
-   "status": "selected",
+   "status": "posted",
    "streamer": "moistcr1tikal",
    "platform": "Twitch",
    "game": "Grand Theft Auto VI",
@@ -191,6 +191,86 @@
     ],
     "cover_text": "THE TRUCK GOT REVENGE",
     "hook_reason": "Brags the guy made a mistake, then the dead guy's truck runs him over."
+   }
+  },
+  {
+   "id": "2026-11-24_nick_bodies_truck",
+   "status": "selected",
+   "streamer": "Nick Eh 30",
+   "platform": "Twitch",
+   "game": "Grand Theft Auto VI",
+   "moment_key": "nick_truck_bed_full_of_bodies_workers_flee",
+   "source_url": "https://www.twitch.tv/nickeh30/clip/ObedientMushyHawkLitty-xYK3Bii",
+   "source_file": "/tmp/claude-0/-home-claude-xvariclips-media/8882ead8-2c15-545b-8f44-1bcd38427c71/scratchpad/vod/nick_src.mp4",
+   "source_type": "Twitch VOD 2938347685 (section 6:20:00+ context around clip ObedientMushyHawkLitty)",
+   "vod_section": "VOD 2938347685, 33010s-33070s (source_file t=0 is VOD 33010)",
+   "broadcast_date": "2026-11-23",
+   "upload_date": "2026-11-23",
+   "metrics": [
+    {
+     "twitch_clip_views": 456,
+     "seen": "2026-11-24 19:20 UTC"
+    }
+   ],
+   "in": "14.3",
+   "out": "50.5",
+   "keep": [
+    [
+     "14.3",
+     "25.4"
+    ],
+    [
+     "34.6",
+     "35.5"
+    ],
+    [
+     "37.1",
+     "50.5"
+    ]
+   ],
+   "layout": {
+    "mode": "stack",
+    "facecam": null,
+    "game": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "blur": []
+   },
+   "header": "Family Friendly Nick Eh 30 in GTA 6",
+   "header_alts": [
+    "Is it the legs, bro?"
+   ],
+   "emphasis": [
+    "legs"
+   ],
+   "screen": {
+    "setup": "Nick drives around a work yard with a pickup bed piled full of bodies, 'experimenting' how many fit, and wonders why the workers keep noticing.",
+    "payoff": "'Is it the legs sticking out?' then he begs them 'don't tell anyone', they scatter, bodies fly out, and he cackles 'Look at all that running away! We got more.'",
+    "uncertainty": "~25s with two internal cuts (removed ~10s of quiet driving). Whisper models disagree on 'is it'/'do they see' and 'all that'/'all them'; captions follow the render's medium.en transcript. No gore beyond a small blood smear.",
+    "boundaries_checked": true
+   },
+   "posting": {
+    "tiktok": "\"is it the legs, bro?\" \ud83d\udc80 family friendly Nick Eh 30 \ud83c\udfa5 @nickeh30",
+    "hashtags_tiktok": [
+     "#nickeh30",
+     "#gta6",
+     "#gtavi",
+     "#familyfriendly",
+     "#fyp"
+    ],
+    "instagram": "\"is it the legs, bro?\" \ud83d\udc80 family friendly Nick Eh 30",
+    "hashtags_instagram": [
+     "#nickeh30",
+     "#gta6",
+     "#gtavi",
+     "#familyfriendly",
+     "#fyp"
+    ],
+    "cover_text": "IS IT THE LEGS, BRO?",
+    "hook_reason": "Truck bed full of bodies + the family-friendly streamer asking if the legs gave it away."
    }
   }
  ]

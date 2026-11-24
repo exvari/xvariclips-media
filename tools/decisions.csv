@@ -72,3 +72,29 @@ date,clip_id,streamer,verdict,reasons
 2026-11-23,2026-11-23_moist_posthumous,moistcr1tikal,approved-posted,"owner: not bad, but double facecam is a no-no. owner asked for a post now; brag ('this guy made a huge mistake') -> dead driver's truck launches him -> 'alright, we're good'. Clear visible payoff"
 2026-11-23,nick_moto_incident,Nick Eh 30,rejected-at-screen,"DUPLICATE: the motorcycle-drag moment is already the ending of the 90s 'family friendly Nick Eh 30 vs GTA 6' post from 11-21"
 2026-11-23,more_channels_7d_x19,various,rejected-at-screen,"extra channels (zoil, summit1g, nickeh30, squeex, tfue, silky, timthetatman, vanosscrew, yourrage): mostly strip club/brothel/nude beach/sex scenes or not GTA (WoW, Fortnite); squeex phone-driving too mild; moist store rant no payoff"
+2026-11-24,nick_family_friendly_ff,Nick Eh 30,selected,"truck bed full of bodies; 'do they see the legs sticking out? is it the legs, bro?' -> 'don't tell anyone' -> workers flee, bodies fly out, 'we got more'. VOD context pulled; 2 internal cuts; ~25s"
+2026-11-24,nick_how_many_bodies,Nick Eh 30,rejected-at-screen,"same session as the keeper (setup only: loading bodies, 'that's one'); no payoff of its own, folded into the keeper's context"
+2026-11-24,nick_goes_psycho,Nick Eh 30,rejected-at-screen,"great crazed face but almost no line, and a big blood pool under the run-over NPC: gore risk on TikTok"
+2026-11-24,nick_ehhhmazing,Nick Eh 30,rejected-at-screen,"would get flagged: runs over bikini NPCs on the beach, lots of blood"
+2026-11-24,nick_evil_rooftop_x2,Nick Eh 30,rejected-at-screen,throws an embracing couple / a woman off a rooftop: kissing-adjacent + violence on a woman; dark frames; line unclear ('you suck his mask')
+2026-11-24,nick_omg_selfie,Nick Eh 30,rejected-at-screen,"dark night footage, payoff not visible; 'something something family friendly' line is mild"
+2026-11-24,nick_alligator,Nick Eh 30,rejected-at-screen,"'I'm gonna wrestle this alligator... oh it's already dead': anticlimax, no payoff"
+2026-11-24,nick_granny,Nick Eh 30,rejected-at-screen,pushing a grandma around a motel balcony; line ok but payoff not clearly seen; second Nick clip in one run
+2026-11-24,stable_cant_drive,StableRonaldo,rejected-at-screen,"NEAR MISS: rants 'learn how to drive' then hits a biker and pedestrian, 'he did not have it coming, I just suck at driving'; hits are small and quick, deadpan, needs ~27s. Same failure mode as ludwig_non_lethal"
+2026-11-24,squeex_bad_driver,Squeex,rejected-at-screen,"'and they say I'm a bad driver' then clips a stop sign; no reaction after, mild (like rejected caseoh_drift)"
+2026-11-24,squeex_flying_kick,Squeex,rejected-at-screen,NPC kick with weak line ('I forgot I worked'); tight short dress
+2026-11-24,lacy_beggar,Lacy,rejected-at-screen,"the joke is NPC dialogue (beggar), shirtless NPC; Lacy only says 'bro what the f***'"
+2026-11-24,lacy_61_percent,Lacy,rejected-at-screen,rage at autosave menu; nothing visual
+2026-11-24,kai_dont_call_police,Kai Cenat,rejected-at-screen,unclear what happened; repeated 'don't call police' with no visible payoff
+2026-11-24,kai_six_stars,Kai Cenat,rejected-at-screen,"police radio + driving, no streamer line"
+2026-11-24,kai_lost_money,Kai Cenat,rejected-at-screen,rage after a fail screen; nothing visual
+2026-11-24,jynxzi_checks_nick,Jynxzi,rejected-at-screen,reaction to another stream (double facecam); not his own gameplay
+2026-11-24,jynxzi_get_out,Jynxzi,rejected-at-screen,"generic driving, 'hazy hazy' chant, no payoff"
+2026-11-24,erobb_gun_accident,erobb221,rejected-at-screen,"'I didn't mean to pull my gun out': mild, payoff blurred/unclear"
+2026-11-24,ludwig_jason_sandwich,Ludwig,rejected-at-screen,"crash -> WASTED, 'I'm working on it dude': plain fail"
+2026-11-24,cohh_kitty,CohhCarnage,rejected-at-screen,"mission NPC monologue, no streamer payoff"
+2026-11-24,silky_drip,Silky,rejected-at-screen,"clothing menu, no payoff"
+2026-11-24,shroud_x5,shroud,rejected-at-screen,OBS settings talk / cutscenes; 'disgusting' clip has an NPC with clothes off
+2026-11-24,speed_x3,IShowSpeed,rejected-at-screen,"mission dialogue (Jason/Lucia argument), 52-hour talk; 'not your wife' is about Lucia in revealing outfit"
+2026-11-24,title_or_content_flagged_24h,various,rejected-at-screen,"would get flagged: moist 'penis inspector', Hasan 'lube/trophy', Hasan pool thongs, Mandy/Lucia titles; not downloaded or rejected on frames"
+2026-11-24,misc_24h_x25,various,rejected-at-screen,"no streamer line or no payoff: fanum store robbery (silent), lacy target practice, kai gg, marlon trunk (NPC lines), kai VIP party (talk), ludwig 5-star, moist ATM/finders keepers, squeex voices, zack RAUUL, xqc NPC, ludwig english degree"
