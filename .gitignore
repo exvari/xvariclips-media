@@ -1,0 +1,5 @@
+tools/out/
+tools/work/*
+!tools/work/*/
+tools/work/*/*
+!tools/work/*/words.json

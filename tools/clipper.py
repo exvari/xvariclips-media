@@ -556,12 +556,14 @@ def ledger_check(rec):
 
 
 def ledger_add(rec, status):
-    p = ROOT / "ledger.csv"; rows = [r for r in ledger_rows() if r["id"] != rec["id"]]
-    rows.append({"id": rec["id"], "streamer": rec.get("streamer", ""), "broadcast_date": rec.get("broadcast_date", ""),
+    p = ROOT / "ledger.csv"; old = {r["id"]: r for r in ledger_rows()}
+    rows = [r for r in old.values() if r["id"] != rec["id"]]
+    rows.append({**old.get(rec["id"], {}), "id": rec["id"], "streamer": rec.get("streamer", ""), "broadcast_date": rec.get("broadcast_date", ""),
                  "moment_key": rec.get("moment_key", ""), "source_url": rec.get("source_url", ""),
                  "in": rec.get("in", ""), "out": rec.get("out", ""), "status": status, "updated": now()})
     with open(p, "w", newline="", encoding="utf-8") as f:
-        w = csv.DictWriter(f, fieldnames=list(rows[0].keys())); w.writeheader(); w.writerows(rows)
+        fields = list(dict.fromkeys(k for r in rows for k in r))   # keep extra columns (posted_slot_pt, views_48h, ...)
+        w = csv.DictWriter(f, fieldnames=fields, restval=""); w.writeheader(); w.writerows(rows)
 
 
 def discover():

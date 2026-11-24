@@ -42,5 +42,9 @@ Follow this from top to bottom on every scheduled run. Nobody is watching, so do
    - Use the next free slots that are at least 3 hours away, so the owner has time to delete anything bad. Check `list_posts` first, so you never put two posts in the same slot.
 7. **Record** what you did:
    - Add the new rows to `ledger.csv` and `decisions.csv` (verdict `auto-scheduled`).
+   - In `ledger.csv`, fill `posted_slot_pt` (e.g. `Tue 2026-11-24 15:30`) and `buffer_post_id` (from `create_post`) for every scheduled clip.
+   - **Slot tracking:** for every ledger row with a `buffer_post_id` that was posted 48h+ ago and has an empty `views_48h`, read its views with `list_posts` (`includeMetrics: true`) and fill `views_48h`. Never put two posts within 2h of each other: same-slot posts compete with each other (on 11-19, 4 posts in 3 min got 697/7/4/2 views).
+   - Once 30+ rows have `views_48h`, compare median views per slot (plus `tools/slot_baseline.csv`) and write the result in `taste.md`. Change the slots only if one is clearly better.
+   - `work/<id>/words.json` is committed (the rest of work/ and out/ is ignored) so `dupcheck.py` keeps its history.
    - Commit `tools/` changes with the clips.
    - End with a short report: what you scheduled, the slot times, what you rejected and why, and anything that blocked you.

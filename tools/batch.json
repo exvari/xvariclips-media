@@ -1,5 +1,5 @@
 {
- "batch": "2026-11-19 first real batch",
+ "batch": "2026-11-23 daily (owner asked for a post)",
  "window": "targeted 24-48h; two leads are 5-6 days old and marked",
  "clips": [
   {
@@ -58,6 +58,73 @@
     ],
     "cover_text": "SPEED FOUND AN ALIEN IN GTA 6\u2026 'KSI, IT WAS YOU!'",
     "hook_reason": "He yells 'KSI! It was you the whole time, you fat forehead motherf***er!' and grabs his phone for a picture."
+   }
+  },
+  {
+   "id": "2026-11-23_ludwig_non_lethal",
+   "status": "selected",
+   "streamer": "Ludwig",
+   "platform": "Twitch",
+   "game": "Grand Theft Auto VI",
+   "moment_key": "ludwig_non_lethal_stuntman",
+   "source_url": "https://www.twitch.tv/ludwig/clip/ThoughtfulEnjoyableHawkPJSalt-OtuBadL01cWb4pO4",
+   "source_file": "/tmp/claude-0/-home-claude-xvariclips-media/28b692d8-4a5e-5a45-a73d-3fd1ac81dc73/scratchpad/dl/ludwig_non_lethal.mp4",
+   "source_type": "Twitch clip",
+   "broadcast_date": "2026-11-22",
+   "upload_date": "2026-11-22",
+   "metrics": [],
+   "in": "1.4",
+   "out": "27.7",
+   "layout": {
+    "mode": "stack",
+    "facecam": [
+     0,
+     0.364,
+     0.18,
+     0.23
+    ],
+    "game": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "blur": [],
+    "blur_cam": false
+   },
+   "header": "Ludwig Called the Stuntman's Death",
+   "header_alts": [
+    "He said it wasn't him"
+   ],
+   "emphasis": [
+    "non-lethal",
+    "wasn't"
+   ],
+   "screen": {
+    "setup": "Ludwig says there's a non-zero chance the stuntman dies and he has to become the new stuntman.",
+    "payoff": "The stuntman launches and explodes; Ludwig: 'No no no, I'm a non-lethal player... it wasn't me, it wasn't me.'",
+    "uncertainty": "Explosion is small in the far background; posted at owner's request after the run found no clear keeper.",
+    "boundaries_checked": true
+   },
+   "posting": {
+    "tiktok": "he called it and then said it wasn't him \ud83d\ude2d #ludwig",
+    "hashtags_tiktok": [
+     "#ludwig",
+     "#gta6",
+     "#gtavi",
+     "#twitchclips",
+     "#fyp"
+    ],
+    "instagram": "he called it and then said it wasn't him \ud83d\ude2d #ludwig",
+    "hashtags_instagram": [
+     "#ludwig",
+     "#gta6",
+     "#gtavi",
+     "#twitchclips",
+     "#fyp"
+    ],
+    "cover_text": "LUDWIG CALLED THE STUNTMAN'S DEATH",
+    "hook_reason": "Predicts the stuntman will die, it happens instantly, then denies everything."
    }
   }
  ]
