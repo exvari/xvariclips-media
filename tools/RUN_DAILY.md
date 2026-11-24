@@ -7,7 +7,9 @@ Follow this from top to bottom on every scheduled run. Nobody is watching, so do
 - **TikTok-safe only.** Reject at screening: nudity, sex scenes (the brothel / "check every room" mission, the Lucia shower, the strip club, lap dances, bed scenes, characters in underwear or bikinis), thirst or "gyatt" clips, and slur-heavy clips. Blurring does NOT make these OK.
 - **Funny or nothing.** One beat: an absurd or messed-up action plus the streamer's quotable line or reaction. Include the lead-up. Never cut before the payoff. Zero clips beats weak clips.
 - **Captions are word-for-word** what the streamer says. Censoring the caption text (f***) is fine. Never bleep or mute the audio.
-- **Layout:** the full uncropped game frame, with the streamer's facecam left where it already is in the stream. **Never show the facecam twice** (no extra cam on top of a frame that already has it): use `"layout": {"mode": "stack", "facecam": null}` like the EXAMPLE record. Never blur chat or the cam. QC flags DOUBLE FACECAM.
+- **Layout: the facecam appears exactly once.** Never blur chat or the cam. QC flags DOUBLE FACECAM. Pick one of two layouts per clip:
+  - **Top cam** (owner likes it): an enlarged cam above the gameplay, with the in-stream cam cropped out of the game band via `layout.game`. Example: cam on the left edge, so `"facecam": [0,0.53,0.222,0.22], "game": [0.222,0,0.778,1]`. Use it when the streamer's face/reaction is a big part of the joke AND the in-stream cam sits on an edge or in a corner, so cropping it out removes ≤ ~25% of the frame and none of the action.
+  - **No top cam**: the full uncropped frame with the cam left where it is (`"facecam": null`, like the EXAMPLE). Use it when the in-stream cam is already big and readable, when cropping it out would cut the action, or when the joke is mostly the visual.
 - **No duplicates.** Check by moment (`python dupcheck.py`), not just by URL. Also check `ledger.csv` and the `clips/` folder.
 - Read `taste.md` and `decisions.csv` first. They hold every approval and rejection with reasons. Apply them.
 

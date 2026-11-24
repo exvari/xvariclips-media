@@ -523,8 +523,15 @@ def qc(rec):
         problems.append("NO SCREEN CARD: setup/payoff not written down - should not have been rendered")
     L = rec.get("layout", {})
     if L.get("mode") in ("stack", "split") and L.get("facecam"):
-        problems.append("DOUBLE FACECAM: the streamer's cam is already inside the full game frame - use layout "
-                        "{'mode':'stack','facecam':null} (owner rule 2026-11-23)")
+        info = probe(d / "edit.mov"); v = next(s for s in info["streams"] if s["codec_type"] == "video")
+        sw, sh = int(v["width"]), int(v["height"])
+        S = CFG["layout"]["stack"]
+        gw, gh, gx, gy = fit_box(L.get("game", [0, 0, 1, 1]), sw, sh, W / (S["game_h"] if L["mode"] == "stack" else H - CFG["layout"]["split_top_h"]))
+        fx, fy, fw, fh = [a * b for a, b in zip(L["facecam"], (sw, sh, sw, sh))]
+        ox = min(gx + gw, fx + fw) - max(gx, fx); oy = min(gy + gh, fy + fh) - max(gy, fy)
+        if ox > 4 and oy > 4:
+            problems.append("DOUBLE FACECAM: top cam is on, but the game band still contains the streamer's cam. "
+                            "Crop it out with layout.game, or drop the top cam (facecam:null). Owner rule 2026-11-23")
     res["problems"], res["auto_pass"] = problems, not problems
     res["note"] = "Automated checks only. Look at qc/contact.png and watch the export before posting."
     (o / "qc.json").write_text(json.dumps(res, indent=2))
