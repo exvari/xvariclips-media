@@ -1,5 +1,5 @@
 {
- "batch": "2026-11-23 daily (owner asked for a post)",
+ "batch": "2026-11-23 owner asked for a post now",
  "window": "targeted 24-48h; two leads are 5-6 days old and marked",
  "clips": [
   {
@@ -62,7 +62,7 @@
   },
   {
    "id": "2026-11-23_ludwig_non_lethal",
-   "status": "selected",
+   "status": "rejected-by-owner",
    "streamer": "Ludwig",
    "platform": "Twitch",
    "game": "Grand Theft Auto VI",
@@ -125,6 +125,72 @@
     ],
     "cover_text": "LUDWIG CALLED THE STUNTMAN'S DEATH",
     "hook_reason": "Predicts the stuntman will die, it happens instantly, then denies everything."
+   }
+  },
+  {
+   "id": "2026-11-23_moist_posthumous",
+   "status": "selected",
+   "streamer": "moistcr1tikal",
+   "platform": "Twitch",
+   "game": "Grand Theft Auto VI",
+   "moment_key": "moist_sniped_driver_truck_runs_him_over",
+   "source_url": "https://www.twitch.tv/moistcr1tikal/clip/SquareFitRhinocerosWutFace-wVVxKqdBV-6Obc1h",
+   "source_file": "/tmp/claude-0/-home-claude-xvariclips-media/28b692d8-4a5e-5a45-a73d-3fd1ac81dc73/scratchpad/dl8/moist_posthumous.mp4",
+   "source_type": "Twitch clip",
+   "broadcast_date": "2026-11-20",
+   "upload_date": "2026-11-20",
+   "metrics": [],
+   "in": "9.6",
+   "out": "28.4",
+   "layout": {
+    "mode": "stack",
+    "facecam": [
+     0,
+     0.53,
+     0.222,
+     0.22
+    ],
+    "game": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "blur": [],
+    "blur_cam": false
+   },
+   "header": "Charlie Snipes the Driver\u2026 The Truck Gets Revenge",
+   "header_alts": [
+    "Posthumous vehicular manslaughter"
+   ],
+   "emphasis": [
+    "mistake"
+   ],
+   "screen": {
+    "setup": "Charlie snipes a driver from the highway shoulder: 'this guy made a huge mistake coming down here.'",
+    "payoff": "The dead driver's truck keeps rolling and launches Charlie over the hood; he deadpans 'very good.'",
+    "uncertainty": "Deadpan delivery; facecam is small in the source.",
+    "boundaries_checked": true
+   },
+   "posting": {
+    "tiktok": "posthumous vehicular manslaughter \ud83d\udc80 #moistcr1tikal",
+    "hashtags_tiktok": [
+     "#moistcr1tikal",
+     "#penguinz0",
+     "#gta6",
+     "#gtavi",
+     "#fyp"
+    ],
+    "instagram": "posthumous vehicular manslaughter \ud83d\udc80",
+    "hashtags_instagram": [
+     "#moistcr1tikal",
+     "#penguinz0",
+     "#gta6",
+     "#gtavi",
+     "#fyp"
+    ],
+    "cover_text": "THE TRUCK GOT REVENGE",
+    "hook_reason": "Brags the guy made a mistake, then the dead guy's truck runs him over."
    }
   }
  ]
