@@ -15,10 +15,12 @@ Follow this from top to bottom on every scheduled run. Nobody is watching, so do
 1. **Setup**
    - `pip install --break-system-packages -r requirements.txt`
    - Check that `ffmpeg` is installed (`apt-get install -y ffmpeg` if it's missing).
-2. **Find candidates** from the last 24h of Twitch clips:
+2. **Find candidates.** Any streamer is fair game (owner, 2026-11-23: "go for anyone as long as the clip is good"). The list below is a starting point, not a limit.
    - `yt-dlp --flat-playlist --playlist-end 40 -J "https://www.twitch.tv/<channel>/clips?filter=clips&range=24hr"`
-   - Run it for these channels: ishowspeed, kaicenat, lacy, caseoh_, xqc, stableronaldo, jynxzi, ludwig, jasontheween, marlon, agent00, zackrawrr, sketch, plaqueboymax, fanum.
-   - Drop titles that suggest sex or nudity (gyat, nude, shower, mandy, lucia, strip, freaky, etc.).
+   - Core channels: ishowspeed, kaicenat, lacy, caseoh_, xqc, stableronaldo, jynxzi, ludwig, jasontheween, marlon, agent00, zackrawrr, sketch, plaqueboymax, fanum.
+   - Wider channels: moistcr1tikal, nickeh30, squeex, summit1g, shroud, timthetatman, vanosscrew, zoil, tfue, silky, cohhcarnage, yourragegaming, extraemily, erobb221, nmplol, hasanabi, emiru, nickmercs, dukedennis. Also any other streamer playing GTA 6 that you come across. Add a new channel here when it produces a keeper.
+   - If the 24h pass finds no keeper, repeat with `range=7d` before giving up. The duplicate check matters even more for older clips: also check the earlier TikTok posts, because compilations can already contain a moment.
+   - Drop titles that suggest sex or nudity (gyat, nude, shower, mandy, lucia, strip, freaky, etc.). Expect most top-viewed GTA 6 clips to be sex or nudity scenes anyway.
    - Download the top ~30 by views at ≤720p.
 3. **Screen.**
    - Transcribe with `python transcribe_dir.py` (run it in the download folder).
