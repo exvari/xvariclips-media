@@ -21,14 +21,16 @@ Follow this from top to bottom on every scheduled run. Nobody is watching, so do
    - `yt-dlp --flat-playlist --playlist-end 40 -J "https://www.twitch.tv/<channel>/clips?filter=clips&range=24hr"`
    - Core channels: ishowspeed, kaicenat, lacy, caseoh_, xqc, stableronaldo, jynxzi, ludwig, jasontheween, marlon, agent00, zackrawrr, sketch, plaqueboymax, fanum.
    - Wider channels: moistcr1tikal, nickeh30, squeex, summit1g, shroud, timthetatman, vanosscrew, zoil, tfue, silky, cohhcarnage, yourragegaming, extraemily, erobb221, nmplol, hasanabi, emiru, nickmercs, dukedennis. Also any other streamer playing GTA 6 that you come across. Add a new channel here when it produces a keeper.
-   - If the 24h pass finds no keeper, repeat with `range=7d` before giving up. The duplicate check matters even more for older clips: also check the earlier TikTok posts, because compilations can already contain a moment.
+   - Filter to GTA 6 before downloading: `python gta6_filter.py '<dir>/*_24hr.json' all.json` (Twitch GQL gives each clip's game, VOD id and VOD offset). Skip slugs in `screened_slugs.txt` and add every slug you screen to it.
+   - **Always run the `range=7d` pass too, until you have 3 keepers** (owner, 2026-11-24: "we wanna be ahead of schedule in case of any bad clips"). Don't stop at the first keeper. Go deeper than the top views: the top 7-day clips are almost all sex/nudity scenes, so sort the rest by date (newest first) and screen the next 40–60. Still zero beats weak: if only 1 clears the bar, schedule 1. The duplicate check matters even more for older clips: also check the earlier TikTok posts (yt-dlp can download `https://www.tiktok.com/@xvariclips/video/<id>`, then compare transcripts), because compilations can already contain a moment.
+   - VOD context: if `context.py` / `--download-sections` stalls, fetch the 10s HLS segments directly (`yt-dlp -g -f 720p60 <vod>` gives the playlist; segment N covers VOD seconds N*10 to N*10+10; prepend `init-0.mp4`).
    - Drop titles that suggest sex or nudity (gyat, nude, shower, mandy, lucia, strip, freaky, etc.). Expect most top-viewed GTA 6 clips to be sex or nudity scenes anyway.
    - Download the top ~30 by views at ≤720p.
 3. **Screen.**
    - Transcribe with `python transcribe_dir.py` (run it in the download folder).
    - Look at a 12-frame contact sheet of every candidate (`ffmpeg fps=12/dur,tile=4x3`). Do the safety check on the frames, not just the title.
    - For each survivor, write `screen.setup` and `screen.payoff` (one sentence each).
-   - Keep at most 3. Log every rejection with its reason in `decisions.csv`.
+   - Keep at most 3 per run (schedule them on separate slots, next free ones first). Log every rejection with its reason in `decisions.csv`.
 4. **Render** each keeper with `clipper.py`:
    - Add a record to `batch.json`. Copy the EXAMPLE record's shape, set `status: "selected"`, and point `source_file` at the downloaded clip.
    - Trim with `in`/`out` to 6–15s around the beat.
