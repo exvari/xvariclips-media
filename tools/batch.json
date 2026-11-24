@@ -195,7 +195,7 @@
   },
   {
    "id": "2026-11-24_nick_bodies_truck",
-   "status": "selected",
+   "status": "scheduled",
    "streamer": "Nick Eh 30",
    "platform": "Twitch",
    "game": "Grand Theft Auto VI",
@@ -271,7 +271,9 @@
     ],
     "cover_text": "IS IT THE LEGS, BRO?",
     "hook_reason": "Truck bed full of bodies + the family-friendly streamer asking if the legs gave it away."
-   }
+   },
+   "buffer_post_id": "6b05ebcd3fa14bcb90be2a0c",
+   "posted_slot_pt": "Tue 2026-11-24 15:30"
   }
  ]
 }

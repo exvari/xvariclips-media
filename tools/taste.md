@@ -72,3 +72,8 @@ Claude reads word-timed transcripts, audio energy and frames. It cannot hear ton
 - 2026-11-23 owner on moist_posthumous: "not bad", "double face cam is a no no". Rule: show the facecam once. Use stack with facecam:null (full frame, cam stays where the stream has it). Never add a second, enlarged cam band.
 - 2026-11-23 owner follow-up: "we can use top face cam, I like that, we just have to know when to use it". Rule: top cam is fine as long as the in-stream cam is cropped out of the game band (one cam only). Use top cam when the reaction is the joke and the cam sits on an edge or in a corner. Use full frame with no top cam when the cam is already big, overlaps the action, or the joke is visual. See RUN_DAILY Layout.
 - 2026-11-24 owner: tag the creator's TikTok in every caption so we're not "stealing content". See RUN_DAILY step 6 and tools/creators.csv (verified handles only; fall back to twitch.tv/<channel>).
+
+## Sourcing lessons (2026-11-24 daily run, auto)
+- Twitch GQL (`clip(slug){game{name} video{id} videoOffsetSeconds}`) gives each clip's game and VOD offset: filter to "Grand Theft Auto VI" before downloading. 24h pass: 1,038 clips listed, 651 GTA VI, 72 screened, 1 kept.
+- The VOD can be pulled by fetching the 10s HLS segments directly (yt-dlp --download-sections and context.py timed out / failed to align). Segment N covers VOD seconds N*10..N*10+10.
+- Nick Eh 30's "family-friendly streamer turns evil" angle produced most of today's usable material; the rest was mission dialogue, driving, or flagged content.
