@@ -108,3 +108,11 @@ date,clip_id,streamer,verdict,reasons
 2026-11-24,nick_jogger_phone,Nick Eh 30,rejected-at-screen,"NEAR MISS: knocks a jogger down with the car door and takes her phone, 'y'all always call the cops on me'; dusk, action small, and same 'don't call the cops' joke as today's Nick post"
 2026-11-24,stable_one_kick,StableRonaldo,rejected-at-screen,"'one kick so he feels the pain and he'll stay alive': mild, kick barely visible"
 2026-11-24,ludwig_barber,Ludwig,rejected-at-screen,mostly map menu; barber moment not visible
+2026-11-24,recalibration_batch_search,various,note,"category-wide Twitch GQL + Kick + 55-channel 7d lists: 4,095 GTA VI clips listed, 182 downloaded/transcribed/strip-screened, 24 watched at 2fps, 5 verified against the VOD, 10 ranked candidates written to candidates_2026-11-24.md"
+2026-11-24,ohne_plane_into_tower,ohnePixel,rejected-at-screen,77.9k views but the visual is a plane flying into a skyscraper; he has a second clip titled 'ohne 9/11'. Not posting that
+2026-11-24,distortion2_cult_baby,distortion2,rejected-at-screen,"cutscene: mother gives her baby to the ocean in a cult ceremony; the screaming is the NPC, not him"
+2026-11-24,lacy_alligator_fight,Lacy,rejected-at-screen,energy but the gator barely interacts; he yells at it and dies
+2026-11-24,xqc_kick_heli_faceplant,xQc (Kick),rejected-at-screen,"parachute faceplant is tiny and far away; only line is 'okay, well, that's, um...' Same far-away-payoff failure as ludwig_non_lethal"
+2026-11-24,peanut_going_for_the_dog,theBurntPeanut,rejected-at-screen,payoff is him telling chat to turn away before doing something to a dog; the act is the joke and we can't show it
+2026-11-24,kick_gta6_x~340,various (Kick),rejected-at-screen,"iceposeidon/adinross/n3on/kaysan/konvy/cuffem/westcol/stevewilldoit GTA VI clips: long meandering UFO+bigfoot bits, IRL-adjacent content, slur-heavy audio, or no payoff"
+2026-11-24,category_wide_remainder_x150,various,rejected-at-screen,"Twitch GTA VI category top clips (all channels, 7d+24h): still majority sex/nudity/strip club; remainder cutscenes, menus, driving, or reaction-to-another-stream"

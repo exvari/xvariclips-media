@@ -11,24 +11,27 @@ Follow this from top to bottom on every scheduled run. Nobody is watching, so do
   - **Top cam** (owner likes it): an enlarged cam above the gameplay, with the in-stream cam cropped out of the game band via `layout.game`. Example: cam on the left edge, so `"facecam": [0,0.53,0.222,0.22], "game": [0.222,0,0.778,1]`. Use it when the streamer's face/reaction is a big part of the joke AND the in-stream cam sits on an edge or in a corner, so cropping it out removes ≤ ~25% of the frame and none of the action.
   - **No top cam**: the full uncropped frame with the cam left where it is (`"facecam": null`, like the EXAMPLE). Use it when the in-stream cam is already big and readable, when cropping it out would cut the action, or when the joke is mostly the visual.
 - **No duplicates.** Check by moment (`python dupcheck.py`), not just by URL. Also check `ledger.csv` and the `clips/` folder.
-- Read `taste.md` and `decisions.csv` first. They hold every approval and rejection with reasons. Apply them.
+- Read `taste.md` and `decisions.csv` first. They hold every approval and rejection with reasons. Apply them. The 2026-11-24 recalibration section of `taste.md` holds the current gate and overrides the narrower one above it.
 
 ## Steps
 1. **Setup**
    - `pip install --break-system-packages -r requirements.txt`
    - Check that `ffmpeg` is installed (`apt-get install -y ffmpeg` if it's missing).
-2. **Find candidates.** Any streamer is fair game (owner, 2026-11-23: "go for anyone as long as the clip is good"). The list below is a starting point, not a limit.
-   - `yt-dlp --flat-playlist --playlist-end 40 -J "https://www.twitch.tv/<channel>/clips?filter=clips&range=24hr"`
-   - Core channels: ishowspeed, kaicenat, lacy, caseoh_, xqc, stableronaldo, jynxzi, ludwig, jasontheween, marlon, agent00, zackrawrr, sketch, plaqueboymax, fanum.
-   - Wider channels: moistcr1tikal, nickeh30, squeex, summit1g, shroud, timthetatman, vanosscrew, zoil, tfue, silky, cohhcarnage, yourragegaming, extraemily, erobb221, nmplol, hasanabi, emiru, nickmercs, dukedennis. Also any other streamer playing GTA 6 that you come across. Add a new channel here when it produces a keeper.
-   - Filter to GTA 6 before downloading: `python gta6_filter.py '<dir>/*_24hr.json' all.json` (Twitch GQL gives each clip's game, VOD id and VOD offset). Skip slugs in `screened_slugs.txt` and add every slug you screen to it.
+2. **Find candidates — start with the GAME, not the channel list.** (Owner, 2026-11-24: a fixed list of big entertainer channels is why two runs found almost nothing — their top clips are mostly sex scenes.)
+   - **Category first:** `python twitch_category_clips.py LAST_DAY 5` and `LAST_WEEK 10` — Twitch GQL, every channel playing GTA VI, 100 clips a page.
+   - **Then channels**, as a second pass, not the main one: `yt-dlp --flat-playlist --playlist-end 100 -J "https://www.twitch.tv/<channel>/clips?filter=clips&range=7d"`, then `python gta6_filter.py '<dir>/*_7d.json' all.json` to get each clip's game, VOD id and VOD offset. Skip slugs already in `screened_slugs.txt`, and append every slug you screen.
+   - Channels that have produced candidates: ohnepixel, lirik, missmikkaa, joe_bartolozzi, distortion2, avoidingthepuddle, theburntpeanut, 2xrakai, ramez05, symfuhny, vinesauce, clix, dansgaming, pokelawls, nickeh30, caseoh_, kaicenat, ishowspeed, lacy, moistcr1tikal. Mid-size streamers out-produce the big ones for us. Add new ones here when they land.
+   - **Kick:** `python kick_clips.py <comma-separated channels>` (xqc, adinross, n3on, iceposeidon, kaysan, konvy, cuffem, westcol, stevewilldoit). Filter `cat == "Grand Theft Auto VI (GTA)"`.
+   - YouTube is blocked from the cloud (bot check). Use compilation titles only as a signal of which moments are circulating, then find the original Twitch/Kick clip.
+   - **Rank by promise, not by views.** Views correlate with sexual content. Prefer titles about animals, physics, bugs, NPCs, discoveries, chases, escapes, timing, karma.
    - **Always run the `range=7d` pass too, until you have 3 keepers** (owner, 2026-11-24: "we wanna be ahead of schedule in case of any bad clips"). Don't stop at the first keeper. Go deeper than the top views: the top 7-day clips are almost all sex/nudity scenes, so sort the rest by date (newest first) and screen the next 40–60. Still zero beats weak: if only 1 clears the bar, schedule 1. The duplicate check matters even more for older clips: also check the earlier TikTok posts (yt-dlp can download `https://www.tiktok.com/@xvariclips/video/<id>`, then compare transcripts), because compilations can already contain a moment.
    - VOD context: if `context.py` / `--download-sections` stalls, fetch the 10s HLS segments directly (`yt-dlp -g -f 720p60 <vod>` gives the playlist; segment N covers VOD seconds N*10 to N*10+10; prepend `init-0.mp4`).
    - Drop titles that suggest sex or nudity (gyat, nude, shower, mandy, lucia, strip, freaky, etc.). Expect most top-viewed GTA 6 clips to be sex or nudity scenes anyway.
    - Download the top ~30 by views at ≤720p.
-3. **Screen.**
-   - Transcribe with `python transcribe_dir.py` (run it in the download folder).
-   - Look at a 12-frame contact sheet of every candidate (`ffmpeg fps=12/dur,tile=4x3`). Do the safety check on the frames, not just the title.
+3. **Screen in three passes, and say which pass each clip reached.** Titles, views and transcripts are discovery signals only — visual comedy never shows up in a transcript. Report access failures separately from quality rejections, and never claim you watched something you couldn't open.
+   - **screened:** `python transcribe_dir.py` in the download folder, then `python strips.py <dir>` — a 10-frame labelled strip per clip, stacked 9 to a sheet. Safety check happens here, on frames.
+   - **watched:** for anything still alive, `python dense.py <clip.mp4> <out.jpg> 2` — 2 frames per second across the whole clip, read alongside the word-timed transcript.
+   - **verified in context:** for every finalist, `python vod_window.py <vod_id> <start_s> <end_s> <out>` (pulls the HLS segments directly; `context.py`'s download often stalls), then align and transcribe. Viewer clips routinely cut the payoff off — on 2026-11-24 the best line was 50s after the clip ended.
    - For each survivor, write `screen.setup` and `screen.payoff` (one sentence each).
    - Keep at most 3 per run (schedule them on separate slots, next free ones first). Log every rejection with its reason in `decisions.csv`.
 4. **Render** each keeper with `clipper.py`:

@@ -77,3 +77,45 @@ Claude reads word-timed transcripts, audio energy and frames. It cannot hear ton
 - Twitch GQL (`clip(slug){game{name} video{id} videoOffsetSeconds}`) gives each clip's game and VOD offset: filter to "Grand Theft Auto VI" before downloading. 24h pass: 1,038 clips listed, 651 GTA VI, 72 screened, 1 kept.
 - The VOD can be pulled by fetching the 10s HLS segments directly (yt-dlp --download-sections and context.py timed out / failed to align). Segment N covers VOD seconds N*10..N*10+10.
 - Nick Eh 30's "family-friendly streamer turns evil" angle produced most of today's usable material; the rest was mission dialogue, driving, or flagged content.
+
+# ============================================================
+# 2026-11-24 RECALIBRATION (owner brief). This section overrides
+# the narrower gate above where they disagree.
+# ============================================================
+
+## What the page is for
+Clips people follow us for: funny streamer moments, interesting GTA 6 discoveries, unexpected chaos, moments worth sending to a friend. Judge entertainment value and say why; nobody can promise views.
+
+## The widened gate (replaces "quotable line + loud reaction")
+A clip qualifies if it is one or more of these AND a stranger gets it with no stream knowledge:
+- funny failure, terrible timing, accidental comedy, misunderstanding, unexpectedly good dialogue
+- bugs, physics, NPC behaviour, unpredictable interactions that read on screen
+- a surprising detail, mechanic, discovery or experiment -> "wait, you can do that?"
+- wild escape, close call, escalating disaster, impressive play with understandable stakes
+- streamer interaction, argument, trolling, reaction with clear setup and payoff
+- relatable enough to pull a "this happened to me" comment
+Explicitly NOT required: a loud reaction, a famous streamer, or a quotable line. A quiet moment with a great payoff beats a loud reaction. A streamer yelling is not automatically funny.
+Still ask of every candidate: what happens / what's funny or surprising / what stops a stranger scrolling / is the payoff worth staying for / does it work without knowing the streamer / would someone share, replay or leave a specific comment.
+
+## Evidence levels (use these words in every report; never claim a level you didn't reach)
+listed -> screened (downloaded + word-timed transcript + 10-frame strip) -> watched (2 fps sheet of the whole clip) -> verified in context (VOD window pulled, clip audio-aligned inside it, context transcript + frame sheet read).
+Report access failures separately from quality rejections.
+
+## Editing rules (owner: clips have been starting late and ending abruptly)
+- Find the start of the real setup, not the loudest moment.
+- Keep the dialogue/visual info needed to understand the payoff; include enough reaction after it.
+- Never cut mid-sentence, before the reveal, or during the best reaction.
+- Inspect surrounding footage before locking timestamps. Viewer clips routinely cut the payoff off: 2026-11-24 the best line of the ohnePixel scooter moment was 50s AFTER the viewer clip ended.
+- Keep a source cut with handles, then a tighter posting cut. Length follows the moment; don't stretch a short joke or wreck a good sequence to hit a number.
+- Hooks must be true to the footage. Never invent stakes or fake a discovery.
+
+## Sourcing lessons (2026-11-24, the big one)
+- THE CHANNEL LIST WAS THE PROBLEM. Searching a fixed list of 34 big entertainer channels returns top clips that are overwhelmingly sex/nudity scenes, because that is what their viewers clip. Two full passes that way (180 clips screened) produced 1 keeper.
+- Searching the GTA VI CATEGORY itself (all channels, Twitch GQL `game(name:"Grand Theft Auto VI"){clips}`) plus mid-size streamers produced 10 real candidates in one pass.
+- Channels that produced candidates on 2026-11-24: ohnepixel, lirik, missmikkaa, joe_bartolozzi, distortion2, avoidingthepuddle, theburntpeanut, 2xrakai, ramez05, symfuhny, vinesauce, pokelawls, dansgaming, clix. Add good ones to channels.json.
+- Kick: the API works (`kick_clips.py`), GTA VI clips exist on iceposeidon, adinross, n3on, kaysan, konvy, xqc, cuffem. Nothing cleared the bar on 11-24 (UFO/bigfoot clips are long and meandering, most others are IRL-adjacent or slur-heavy), but it is a live source worth re-checking.
+- YouTube is still blocked from the cloud (bot check), so compilation channels can only be used as a signal of which moments are circulating, not as a source.
+- Week one of a new game: "wait, you can do that?" is currently a stronger lane for us than "streamer yells".
+
+## Verdict log (fill in from owner feedback)
+- 2026-11-24 batch of 10 sent for KEEP/MAYBE/BORING marking: see `candidates_2026-11-24.md`. No verdicts yet.
