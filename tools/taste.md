@@ -119,3 +119,9 @@ Report access failures separately from quality rejections.
 
 ## Verdict log (fill in from owner feedback)
 - 2026-11-24 batch of 10 sent for KEEP/MAYBE/BORING marking: see `candidates_2026-11-24.md`. No verdicts yet.
+
+## Sourcing lessons (2026-11-25 daily run, auto)
+- Twitch GQL `game{clips}` now fails with IntegrityCheckFailed after the first page, so each period gives ~100 clips (98 for 24h, 96 for 7d). 7d first page was 36 new, nearly all sex/nudity titles; only one usable (tminnzy 'one wrong button', 248k views, not sexual).
+- 62 downloaded, all strip-screened, 14 watched at 2 fps, 3 verified in context. About 1 in 5 were unsafe on frames (nude beach, showers, strip clubs, bed scenes, 'sex dolls' container); most others were plain fails + WASTED with no line.
+- Used one of the unreviewed 11-24 ranked candidates (MissMikkaa Attenborough gator, #2). LIRIK dog-on-jet-ski (#3) kept as a backup: no facecam in the clip, dog tiny until ~30s.
+- VOD windows for tminnzy and LIRIK contain DMCA-muted segments; the viewer clip audio was used.

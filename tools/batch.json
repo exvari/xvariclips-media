@@ -277,7 +277,7 @@
   },
   {
    "id": "2026-11-25_tminnzy_triangle",
-   "status": "selected",
+   "status": "scheduled",
    "streamer": "tminnzy",
    "platform": "Twitch",
    "game": "Grand Theft Auto VI",
@@ -321,7 +321,7 @@
     "boundaries_checked": true
    },
    "posting": {
-    "tiktok": "\"I'm so locked in right now\" \ud83d\udc80 one wrong button in GTA 6 \ud83c\udfa5 twitch.tv/tminnzy",
+    "tiktok": "\"I'm so locked right now\" \ud83d\udc80 one wrong button in GTA 6 \ud83c\udfa5 twitch.tv/tminnzy",
     "hashtags_tiktok": [
      "#gta6",
      "#gtavi",
@@ -339,11 +339,13 @@
     ],
     "cover_text": "ONE WRONG BUTTON",
     "hook_reason": "Locked-in brag -> Jason casually steps out of a flying plane -> 'did I really press triangle?'"
-   }
+   },
+   "posted_slot_pt": "Wed 2026-11-25 15:30",
+   "buffer_post_id": "6b073a78d54ca56e4765c038"
   },
   {
    "id": "2026-11-25_mikkaa_gator_narration",
-   "status": "selected",
+   "status": "scheduled",
    "streamer": "MissMikkaa",
    "platform": "Twitch",
    "game": "Grand Theft Auto VI",
@@ -386,7 +388,7 @@
     "boundaries_checked": true
    },
    "posting": {
-    "tiktok": "\"it's an alligator. shut up!\" \ud83d\ude2d GTA 6 nature documentary \ud83c\udfa5 twitch.tv/missmikkaa",
+    "tiktok": "\"It's an alligator. Shut up!\" \ud83d\ude2d GTA 6 nature documentary \ud83c\udfa5 twitch.tv/missmikkaa",
     "hashtags_tiktok": [
      "#gta6",
      "#gtavi",
@@ -404,11 +406,13 @@
     ],
     "cover_text": "IT'S AN ALLIGATOR. SHUT UP!",
     "hook_reason": "Committed Attenborough voice over a real gator fight, punctured by chat."
-   }
+   },
+   "posted_slot_pt": "Wed 2026-11-25 18:30",
+   "buffer_post_id": "6b073a79efcda58bbf07030d"
   },
   {
    "id": "2026-11-25_hasan_pet_big_cat",
-   "status": "selected",
+   "status": "scheduled",
    "streamer": "HasanAbi",
    "platform": "Twitch",
    "game": "Grand Theft Auto VI",
@@ -451,7 +455,7 @@
     "boundaries_checked": true
    },
    "posting": {
-    "tiktok": "\"can I pet them?\" \ud83d\udc06 \"okay I'm sorry!\" GTA 6 \ud83c\udfa5 twitch.tv/hasanabi",
+    "tiktok": "\"Can I pet them?\" \ud83d\udc06 \"Okay, I'm sorry!\" GTA 6 \ud83c\udfa5 twitch.tv/hasanabi",
     "hashtags_tiktok": [
      "#gta6",
      "#gtavi",
@@ -469,7 +473,9 @@
     ],
     "cover_text": "CAN I PET THEM?",
     "hook_reason": "Wholesome intention -> instantly mauled -> apologises to the cat."
-   }
+   },
+   "posted_slot_pt": "Thu 2026-11-26 15:30",
+   "buffer_post_id": "6b073a7aefcda58bbf07034d"
   }
  ]
 }
