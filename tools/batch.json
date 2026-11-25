@@ -1,6 +1,6 @@
 {
- "batch": "2026-11-24 daily run (auto)",
- "window": "24h Twitch clips, 34 channels; VOD context pulled for the keeper",
+ "batch": "2026-11-25 daily run (auto)",
+ "window": "Twitch GTA VI category (24h + 7d first page) + 11-24 ranked candidates; VOD context pulled for all keepers",
  "clips": [
   {
    "id": "2026-11-22_speed_alien_ksi",
@@ -274,6 +274,202 @@
    },
    "buffer_post_id": "6b05ebcd3fa14bcb90be2a0c",
    "posted_slot_pt": "Tue 2026-11-24 15:30"
+  },
+  {
+   "id": "2026-11-25_tminnzy_triangle",
+   "status": "selected",
+   "streamer": "tminnzy",
+   "platform": "Twitch",
+   "game": "Grand Theft Auto VI",
+   "moment_key": "tminnzy_locked_in_pressed_triangle_jason_jumps_out_of_plane",
+   "source_url": "https://www.twitch.tv/tminnzy/clip/PatientSweetMilkArgieB8-usdfKujw8E2OZHUm",
+   "source_file": "/tmp/claude-0/-home-claude-xvariclips-media/253216d1-4e00-5041-a6ab-23c14054f385/scratchpad/run/fin/tminnzy_triangle.mp4",
+   "source_type": "Twitch clip (VOD 2935827889 @ ~35049s checked for context)",
+   "broadcast_date": "2026-11-21",
+   "upload_date": "2026-11-21",
+   "metrics": [
+    {
+     "twitch_clip_views": 248686,
+     "seen": "2026-11-25 19:20 UTC"
+    }
+   ],
+   "in": "1.9",
+   "out": "21.0",
+   "layout": {
+    "mode": "stack",
+    "facecam": null,
+    "game": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "blur": []
+   },
+   "header": "One Wrong Button and Jason Left the Plane",
+   "header_alts": [
+    "I'm so locked in right now",
+    "Did I really press triangle?"
+   ],
+   "emphasis": [
+    "triangle"
+   ],
+   "screen": {
+    "setup": "Mid-flight on a mission, he tells chat 'I'm so locked in right now, trying to do this mission'.",
+    "payoff": "He hits the wrong button and Jason calmly steps out of the plane and skydives to his death without a parachute -> FAILED, 'Did I really press triangle?'",
+    "uncertainty": "VOD context read: the only extra after the clip is 'I was reading chat, bro' over the mission restart, left out to keep one clean beat ending on FAILED. Facecam is small mid-right; full frame kept.",
+    "boundaries_checked": true
+   },
+   "posting": {
+    "tiktok": "\"I'm so locked in right now\" \ud83d\udc80 one wrong button in GTA 6 \ud83c\udfa5 twitch.tv/tminnzy",
+    "hashtags_tiktok": [
+     "#gta6",
+     "#gtavi",
+     "#tminnzy",
+     "#gaming",
+     "#fyp"
+    ],
+    "instagram": "\"I'm so locked in right now\" \ud83d\udc80 one wrong button in GTA 6",
+    "hashtags_instagram": [
+     "#gta6",
+     "#gtavi",
+     "#tminnzy",
+     "#gaming",
+     "#fyp"
+    ],
+    "cover_text": "ONE WRONG BUTTON",
+    "hook_reason": "Locked-in brag -> Jason casually steps out of a flying plane -> 'did I really press triangle?'"
+   }
+  },
+  {
+   "id": "2026-11-25_mikkaa_gator_narration",
+   "status": "selected",
+   "streamer": "MissMikkaa",
+   "platform": "Twitch",
+   "game": "Grand Theft Auto VI",
+   "moment_key": "mikkaa_attenborough_gator_fight_youre_an_alligator",
+   "source_url": "https://www.twitch.tv/missmikkaa/clip/IncredulousGlamorousGoblinImGlitch-NRJ7doIS3afta35d",
+   "source_file": "/tmp/claude-0/-home-claude-xvariclips-media/253216d1-4e00-5041-a6ab-23c14054f385/scratchpad/run/fin/mikkaa_gator.mp4",
+   "source_type": "Twitch clip (VOD 2933682633 @ 3272s checked for context)",
+   "broadcast_date": "2026-11-19",
+   "upload_date": "2026-11-19",
+   "metrics": [
+    {
+     "twitch_clip_views": 4907,
+     "seen": "2026-11-25 19:20 UTC"
+    }
+   ],
+   "in": "7.8",
+   "out": "31.2",
+   "layout": {
+    "mode": "stack",
+    "facecam": null,
+    "game": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "blur": []
+   },
+   "header": "She Narrated a Gator Fight Like a Documentary",
+   "header_alts": [
+    "It's an alligator. Shut up!"
+   ],
+   "emphasis": [
+    "alligator"
+   ],
+   "screen": {
+    "setup": "Through a sniper scope she watches two gators fight and narrates it in a nature-documentary voice ('the crocodile in their natural habitat... fighting for the right to mate').",
+    "payoff": "Chat corrects her and she snaps out of the bit: 'It's an alligator. Shut up! You're an alligator!'",
+    "uncertainty": "VOD context read; nothing better after. The correction comes from chat, which viewers don't see, but her repeating it makes it clear.",
+    "boundaries_checked": true
+   },
+   "posting": {
+    "tiktok": "\"it's an alligator. shut up!\" \ud83d\ude2d GTA 6 nature documentary \ud83c\udfa5 twitch.tv/missmikkaa",
+    "hashtags_tiktok": [
+     "#gta6",
+     "#gtavi",
+     "#missmikkaa",
+     "#gaming",
+     "#fyp"
+    ],
+    "instagram": "\"it's an alligator. shut up!\" \ud83d\ude2d GTA 6 nature documentary",
+    "hashtags_instagram": [
+     "#gta6",
+     "#gtavi",
+     "#missmikkaa",
+     "#gaming",
+     "#fyp"
+    ],
+    "cover_text": "IT'S AN ALLIGATOR. SHUT UP!",
+    "hook_reason": "Committed Attenborough voice over a real gator fight, punctured by chat."
+   }
+  },
+  {
+   "id": "2026-11-25_hasan_pet_big_cat",
+   "status": "selected",
+   "streamer": "HasanAbi",
+   "platform": "Twitch",
+   "game": "Grand Theft Auto VI",
+   "moment_key": "hasan_can_i_pet_them_big_cat_mauls_him",
+   "source_url": "https://www.twitch.tv/hasanabi/clip/UglyGleamingQueleaBibleThump--INh4fpyg_yLVsz3",
+   "source_file": "/tmp/claude-0/-home-claude-xvariclips-media/253216d1-4e00-5041-a6ab-23c14054f385/scratchpad/run/fin/hasan_pet.mp4",
+   "source_type": "Twitch clip (VOD 2939580472 @ 13788s checked for context)",
+   "broadcast_date": "2026-11-24",
+   "upload_date": "2026-11-24",
+   "metrics": [
+    {
+     "twitch_clip_views": 150,
+     "seen": "2026-11-25 19:20 UTC"
+    }
+   ],
+   "in": "2.6",
+   "out": "23.6",
+   "layout": {
+    "mode": "stack",
+    "facecam": null,
+    "game": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "blur": []
+   },
+   "header": "He Just Wanted to Pet the Big Cat",
+   "header_alts": [
+    "Can I pet them?"
+   ],
+   "emphasis": [
+    "pet"
+   ],
+   "screen": {
+    "setup": "Parked at a mansion, he spots a big cat in the garden and walks over: 'Wait, can I pet them?'",
+    "payoff": "It pounces and mauls him ('he's mauling me!'), he scrambles back to the car and apologises to it: 'Okay! I'm sorry!'",
+    "uncertainty": "VOD context read: after the clip he just drives off. Red damage tint during the maul, no visible gore. Facecam small top-right; full frame kept.",
+    "boundaries_checked": true
+   },
+   "posting": {
+    "tiktok": "\"can I pet them?\" \ud83d\udc06 \"okay I'm sorry!\" GTA 6 \ud83c\udfa5 twitch.tv/hasanabi",
+    "hashtags_tiktok": [
+     "#gta6",
+     "#gtavi",
+     "#hasanabi",
+     "#gaming",
+     "#fyp"
+    ],
+    "instagram": "\"can I pet them?\" \ud83d\udc06 \"okay I'm sorry!\" GTA 6",
+    "hashtags_instagram": [
+     "#gta6",
+     "#gtavi",
+     "#hasanabi",
+     "#gaming",
+     "#fyp"
+    ],
+    "cover_text": "CAN I PET THEM?",
+    "hook_reason": "Wholesome intention -> instantly mauled -> apologises to the cat."
+   }
   }
  ]
 }
