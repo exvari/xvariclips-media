@@ -479,7 +479,7 @@
   },
   {
    "id": "2026-11-26_lacy_free_the_bulls",
-   "status": "selected",
+   "status": "scheduled",
    "streamer": "Lacy",
    "platform": "Twitch",
    "game": "Grand Theft Auto VI",
@@ -540,7 +540,9 @@
     ],
     "cover_text": "LACY TRIED TO SET THE BULLS FREE",
     "hook_reason": "Wholesome rescue plan -> the bull he's freeing tramples him -> loud outraged yell."
-   }
+   },
+   "posted_slot_pt": "Thu 2026-11-26 18:30",
+   "buffer_post_id": "6b088c3a1fa40915829257d2"
   }
  ]
 }

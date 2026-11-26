@@ -129,3 +129,8 @@ Report access failures separately from quality rejections.
 ## 2026-11-25 owner verdict: auto-run picks "very boring and bad"
 - tminnzy_triangle (plane jump fail + 'did I really press triangle?'), mikkaa_gator_narration (doc-voice bit), hasan_pet_big_cat (pet cat -> mauled -> 'okay I'm sorry'): all rejected.
 - Lessons: small streamers don't carry it; a plain fail + mild line is boring; a voice bit isn't a reaction; 19-23s is too long. Need all 3: visible absurd thing + quotable line/roast + big reaction, from a big streamer, 6-12s.
+
+## Sourcing lessons (2026-11-26 daily run, auto)
+- Applied the 11-25 verdict: only the allowed big-streamer list (plus 50k+ view clips). Category GQL still caps at ~100 clips per period; the 7d channel pass for 15 big channels gave 777 GTA VI clips, 106 downloaded and strip-screened, 10 watched at 2 fps, 3 verified in context, 1 kept.
+- About 1 in 5 screened were unsafe on frames again (Kai's top clips are nearly all bed/strip-club scenes; Jynxzi 'ftw' 8.6k = shower).
+- Near misses show the 3-leg test works as a filter: Nick ATV cackle (visible + huge reaction, no line), CaseOh 'Nice scooter, idiot' (visible + roast, no reaction). Kept Lacy bulls because it has all three.
