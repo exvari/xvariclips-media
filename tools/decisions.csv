@@ -130,3 +130,5 @@ date,clip_id,streamer,verdict,reasons
 2026-11-25,2026-11-25_tminnzy_triangle,tminnzy,auto-scheduled,"Wed 2026-11-25 15:30 PT, Buffer 6b073a78d54ca56e4765c038; credit twitch.tv (no verified TikTok handle); full frame, no top cam"
 2026-11-25,2026-11-25_mikkaa_gator_narration,MissMikkaa,auto-scheduled,"Wed 2026-11-25 18:30 PT, Buffer 6b073a79efcda58bbf07030d; credit twitch.tv (no verified TikTok handle); full frame, no top cam"
 2026-11-25,2026-11-25_hasan_pet_big_cat,HasanAbi,auto-scheduled,"Thu 2026-11-26 15:30 PT, Buffer 6b073a7aefcda58bbf07034d; credit twitch.tv (no verified TikTok handle); full frame, no top cam"
+2026-11-25,2026-11-25_tminnzy_triangle,tminnzy,rejected-by-owner,"very boring and bad: small streamer, plain fail + mild line, 19s"
+2026-11-25,2026-11-25_mikkaa_gator_narration,MissMikkaa,rejected-by-owner,"very boring and bad: small streamer, voice bit not a reaction, 23s"

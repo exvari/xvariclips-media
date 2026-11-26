@@ -13,6 +13,13 @@ Follow this from top to bottom on every scheduled run. Nobody is watching, so do
 - **No duplicates.** Check by moment (`python dupcheck.py`), not just by URL. Also check `ledger.csv` and the `clips/` folder.
 - Read `taste.md` and `decisions.csv` first. They hold every approval and rejection with reasons. Apply them. The 2026-11-24 recalibration section of `taste.md` holds the current gate and overrides the narrower one above it.
 
+## Owner verdict 2026-11-25: "very boring and bad" (tminnzy_triangle, mikkaa_gator_narration, hasan_pet_big_cat)
+What went wrong and the rules that now apply:
+- **Big streamers only.** Small streamers (tminnzy, MissMikkaa) don't carry a clip. Allowed: IShowSpeed, Kai Cenat, Lacy, CaseOh, xQc, StableRonaldo, Jynxzi, Nick Eh 30, Adin Ross, N3on, Jason The Ween, Agent00, Fanum, Duke Dennis, StacksWopo. Anyone else needs to be an exceptional moment AND have 50k+ clip views.
+- **All 3 of these, not 2:** (a) an absurd thing clearly visible on screen, (b) the streamer's own quotable line or roast about it, (c) a big, loud reaction. A plain fail plus a mild line ("did I really press triangle?") is boring. A bit (a nature-documentary voice) is not a reaction.
+- **6–12s, one beat.** Today's were 19–23s.
+- **Before scheduling, compare against the approved list** in taste.md (speed_alien_ksi, caseoh_keep_it_pristine, lacy_dog_then_cops, kai_gf_found_the_ex, speed_its_a_stick_up). If it's not as funny as those, don't post it.
+
 ## Steps
 1. **Setup**
    - `pip install --break-system-packages -r requirements.txt`
@@ -33,10 +40,10 @@ Follow this from top to bottom on every scheduled run. Nobody is watching, so do
    - **watched:** for anything still alive, `python dense.py <clip.mp4> <out.jpg> 2` — 2 frames per second across the whole clip, read alongside the word-timed transcript.
    - **verified in context:** for every finalist, `python vod_window.py <vod_id> <start_s> <end_s> <out>` (pulls the HLS segments directly; `context.py`'s download often stalls), then align and transcribe. Viewer clips routinely cut the payoff off — on 2026-11-24 the best line was 50s after the clip ended.
    - For each survivor, write `screen.setup` and `screen.payoff` (one sentence each).
-   - Keep at most 3 per run (schedule them on separate slots, next free ones first). Log every rejection with its reason in `decisions.csv`.
+   - Keep at most 1 per run (2 only if both clear the bar easily). Posting nothing is better than posting a maybe. Log every rejection with its reason in `decisions.csv`.
 4. **Render** each keeper with `clipper.py`:
    - Add a record to `batch.json`. Copy the EXAMPLE record's shape, set `status: "selected"`, and point `source_file` at the downloaded clip.
-   - Trim with `in`/`out` to 6–15s around the beat.
+   - Trim with `in`/`out` to 6–12s around the beat. Over 12s means the clip is not one beat: drop it.
    - Run `python clipper.py batch`.
    - Check `out/<id>/qc.json`. If it shows problems, fix them or drop the clip.
 5. **Upload.** Copy each final `*_captioned.mp4` to `clips/<id>.mp4` in this repo. Commit and push to main. Check that `https://raw.githubusercontent.com/exvari/xvariclips-media/main/clips/<id>.mp4` returns 200.

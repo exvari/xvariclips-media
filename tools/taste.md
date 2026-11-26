@@ -125,3 +125,7 @@ Report access failures separately from quality rejections.
 - 62 downloaded, all strip-screened, 14 watched at 2 fps, 3 verified in context. About 1 in 5 were unsafe on frames (nude beach, showers, strip clubs, bed scenes, 'sex dolls' container); most others were plain fails + WASTED with no line.
 - Used one of the unreviewed 11-24 ranked candidates (MissMikkaa Attenborough gator, #2). LIRIK dog-on-jet-ski (#3) kept as a backup: no facecam in the clip, dog tiny until ~30s.
 - VOD windows for tminnzy and LIRIK contain DMCA-muted segments; the viewer clip audio was used.
+
+## 2026-11-25 owner verdict: auto-run picks "very boring and bad"
+- tminnzy_triangle (plane jump fail + 'did I really press triangle?'), mikkaa_gator_narration (doc-voice bit), hasan_pet_big_cat (pet cat -> mauled -> 'okay I'm sorry'): all rejected.
+- Lessons: small streamers don't carry it; a plain fail + mild line is boring; a voice bit isn't a reaction; 19-23s is too long. Need all 3: visible absurd thing + quotable line/roast + big reaction, from a big streamer, 6-12s.
