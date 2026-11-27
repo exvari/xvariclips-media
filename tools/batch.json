@@ -546,7 +546,7 @@
   },
   {
    "id": "2026-11-27_speed_slow_cart_cops",
-   "status": "selected",
+   "status": "scheduled",
    "streamer": "IShowSpeed",
    "platform": "Twitch",
    "game": "Grand Theft Auto VI",
@@ -607,7 +607,9 @@
     ],
     "cover_text": "SPEED VS THE COPS ON A MOBILITY SCOOTER",
     "hook_reason": "A police chase at 4 mph on a stolen mobility scooter -> tased off it -> loud 'this slow-ass cart'."
-   }
+   },
+   "posted_slot_pt": "Fri 2026-11-27 15:30",
+   "buffer_post_id": "6b09dee271e8cc12a6c5f841"
   }
  ]
 }
