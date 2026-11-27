@@ -1,6 +1,6 @@
 {
- "batch": "2026-11-25 daily run (auto)",
- "window": "Twitch GTA VI category (24h + 7d first page) + 11-24 ranked candidates; VOD context pulled for all keepers",
+ "batch": "2026-11-27 daily run (auto)",
+ "window": "Twitch GTA VI category (24h+7d first page) + 7d channel pass for the allowed big-streamer list + Kick (xqc/adinross/n3on); VOD context pulled for the keeper",
  "clips": [
   {
    "id": "2026-11-22_speed_alien_ksi",
@@ -543,6 +543,71 @@
    },
    "posted_slot_pt": "Thu 2026-11-26 18:30",
    "buffer_post_id": "6b088c3a1fa40915829257d2"
+  },
+  {
+   "id": "2026-11-27_speed_slow_cart_cops",
+   "status": "selected",
+   "streamer": "IShowSpeed",
+   "platform": "Twitch",
+   "game": "Grand Theft Auto VI",
+   "moment_key": "speed_steals_granny_mobility_scooter_flees_cops_tased_slow_cart",
+   "source_url": "https://www.twitch.tv/ishowspeed/clip/CarefulFreezingGaurSoBayed-LXQ_xOjVgGgo9tpZ",
+   "source_file": "/tmp/claude-0/-home-claude-xvariclips-media/ef91d002-36a5-5bab-84d3-1dcdd99fbd9b/scratchpad/run/speed_scooter_src.mp4",
+   "source_type": "Twitch VOD 2932319814 @ 5880-5915s (viewer clip @5860 ends before the payoff)",
+   "broadcast_date": "2026-11-25",
+   "upload_date": "2026-11-25",
+   "metrics": [
+    {
+     "twitch_clip_views": 106,
+     "seen": "2026-11-27 UTC"
+    }
+   ],
+   "in": "11.6",
+   "out": "23.5",
+   "layout": {
+    "mode": "stack",
+    "facecam": null,
+    "game": [
+     0,
+     0,
+     1,
+     1
+    ],
+    "blur": []
+   },
+   "header": "Speed vs the Cops on a Mobility Scooter",
+   "header_alts": [
+    "Slowest police chase in GTA 6"
+   ],
+   "emphasis": [
+    "cart"
+   ],
+   "screen": {
+    "setup": "Speed took an old lady's mobility scooter and tries to flee the cops on it at walking pace while the cop yells to stop the vehicle.",
+    "payoff": "He gets tased off the scooter, the cop tackles him, and he yells 'F*** bro, this slow-ass cart, bro!'",
+    "uncertainty": "VOD context read: ~60s earlier he yanked the lady off it ('Bro give me the f***...'), felt bad and gave it back ('I feel bad now... have it back, I'm sorry'), then took it again when the cops came. That arc is ~90s, so the post cuts only the chase; the caption carries the setup. Facecam small on the left edge; joke is visual + yell, full frame kept.",
+    "boundaries_checked": true
+   },
+   "posting": {
+    "tiktok": "Speed stole grandma's mobility scooter to outrun the cops 😭 \"this slow ass car, bro\" 🎥 @ishowspeed",
+    "hashtags_tiktok": [
+     "#ishowspeed",
+     "#gta6",
+     "#gtavi",
+     "#gaming",
+     "#fyp"
+    ],
+    "instagram": "Speed stole grandma's mobility scooter to outrun the cops 😭 \"this slow ass car, bro\" 🎥 @ishowspeed",
+    "hashtags_instagram": [
+     "#ishowspeed",
+     "#gta6",
+     "#gtavi",
+     "#gaming",
+     "#fyp"
+    ],
+    "cover_text": "SPEED VS THE COPS ON A MOBILITY SCOOTER",
+    "hook_reason": "A police chase at 4 mph on a stolen mobility scooter -> tased off it -> loud 'this slow-ass cart'."
+   }
   }
  ]
 }
