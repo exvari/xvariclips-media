@@ -141,3 +141,9 @@ Report access failures separately from quality rejections.
 - The keeper came from VOD context again: the viewer clip (Speed steals and returns a mobility scooter, ~30s) ended 40s before the real beat (fleeing cops on it, tased, 'this slow ass car, bro'). Always read +60s after a viewer clip.
 - Kick clips from n3on/adinross have no facecam in the clip, which kills the reaction leg.
 - Slot tracking: nick_bodies_truck (Tue 15:30) 428 views at ~48h; tminnzy (Wed 15:30) 92 at ~23h.
+
+## 2026-11-28 owner reference ("make sum like this"): 411K-like TikTok
+- Format: landscape 16:9 full game frame posted as-is (streamer's own small cam overlay in the corner), NO burned captions, NO header text. Only in-game subtitles.
+- Structure (12s): cold open on the streamer's shocked frozen reaction (game paused, hand over mouth) -> setup (NPC walks up mid-conversation) -> sudden absurd violence -> back to the frozen reaction. Ends where it starts, so it loops.
+- The reaction can be QUIET: a shocked face sells it. Don't reject only because the reaction is low in dB.
+- First attempt in this format: nick_train_doors (Nick throws a man off the metro -> another train hits him -> "I didn't know there was another train"), 17.7s, sent for owner verdict.
